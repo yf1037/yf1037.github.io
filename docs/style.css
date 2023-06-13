@@ -83,6 +83,12 @@ body {
   font-size: 18px;
 }
 
+.under {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+}
+
 .main-img { 
   width: 100%;
   height: auto;
