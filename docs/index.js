@@ -40,7 +40,18 @@ function setLanguage(language) {
 
 // text: l18n-value: [ENtext, CNtext]
 const i18n = {
-  "VENUE_INFO": ["VENUE INFO", "VENUE INFO CHINESE"]
+  "VENUE_INFO": ["VENUE INFO", "会场信息"],
+  "ACCOMMODATION":["Accomodation", "住宿"],
+  "GALLERY":["GALLERY", "照片墙"],
+  "REGISTRY":["REGISTRY", "礼物单"],
+  "CONGRATS":["CONGRATS", "贺词"],
+  "Our Wedding":["Our Wedding", "婚礼"],
+  "Date: MM/DD/YYY":["Date: MM/DD/YYYY", "时间：XXXX年XX月XX日"],
+  "More info": ["More info >", "更多信息 >"],
+  "Top": ["Top", "顶部"],
+  "More to come": ["MOre to come...", "实时更新中。。。"],
+  "Under construction": ["Under construction...", "建设中。。。"],
+  "Direction": ["Direction:", "出行指南："]
 };
 
 function getI18n( text ) {
