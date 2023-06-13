@@ -36,7 +36,7 @@ table {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
@@ -110,4 +110,8 @@ a {
 .decor {
   width: 50%;
   height: auto;
+  min-height: 200px;
+  max-height: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
