@@ -16,9 +16,47 @@ async function includeHTML(element, file) {
   });
 }
 
+
+//i18n below
+
+const languageCode = {
+  "EN": 0,
+  "CN": 1
+}
+
+var lang = "EN";
+var langCode = languageCode[lang];
+
+function setLanguage(language) {
+  lang = language;
+  langCode = languageCode[lang];
+
+  let elements = document.querySelectorAll('[data-l18n]');
+  for(let idx = 0; idx < elements.length; idx = idx + 1) {
+    let element = elements[idx];
+    element.textContent = getI18n(element.getAttribute('data-l18n'));
+  }
+}
+
+// text: l18n-value: [ENtext, CNtext]
+const i18n = {
+  "VENUE_INFO": ["VENUE INFO", "VENUE INFO CHINESE"]
+};
+
+function getI18n( text ) {
+  return i18n[text][langCode];
+}
+
+
+
 const headFile = "head.html";
 const headerFile = "header.html";
 const footerFile = "footer.html";
 includeHTML('head'  , headFile);
-includeHTML('header', headerFile);
 includeHTML('footer', footerFile);
+includeHTML('header', headerFile).then(() => {
+    document.getElementById('languageSelector').addEventListener("click", (event) => {
+      setLanguage(event.target.value)
+  });
+  setLanguage('EN');
+});

@@ -121,3 +121,12 @@ a {
   margin-bottom: 0px;
   min-width: 400px;
 }
+
+.under-construction {
+  font-family: lucida_handwrite;
+  font-size: 84px;
+}
+
+#heart {
+  color: #BDA2C3;
+}
