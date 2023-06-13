@@ -14,6 +14,7 @@ header {
   width: 100%;
   text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
   background-color: #bda2c3;
+  text-transform: capitalize;
 }
 
 footer {
@@ -120,4 +121,13 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   min-width: 400px;
+}
+
+.under-construction {
+  font-family: lucida_handwrite;
+  font-size: 84px;
+}
+
+#heart {
+  color: #BDA2C3;
 }

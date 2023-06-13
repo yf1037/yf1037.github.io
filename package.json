@@ -1,0 +1,20 @@
+{
+  "name": "yf1037.github.io",
+  "version": "1.0.0",
+  "description": "SAY wedding website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "static-i18n -l en -i en -i cn -o docs src",
+    "start": "http-server docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "static-i18n": "^0.2.10"
+  }
+}
