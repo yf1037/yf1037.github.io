@@ -16,7 +16,9 @@ async function includeHTML(element, file) {
   });
 }
 
+const headFile = "head.html";
 const headerFile = "header.html";
 const footerFile = "footer.html";
+includeHTML('head'  , headFile);
 includeHTML('header', headerFile);
 includeHTML('footer', footerFile);
