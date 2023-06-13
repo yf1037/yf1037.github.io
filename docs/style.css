@@ -15,9 +15,16 @@ header {
 }
 
 footer {
-  position: fixed;
+  position: sticky;
   z-index: 10;
   width: 100%;
+  margin-top: 10px;
+  bottom: 0;
+  left: 0;
+}
+
+.border {
+  border-top: 1px solid #D0D1D2;
 }
 
 .right {
@@ -26,11 +33,31 @@ footer {
 
 table {
   width: 100%;
+}
 
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
 }
 
 header > table > tbody > tr > td {
   width: 50%;
+}
+
+footer > table > tbody > tr > td {
+  min-width: 10px;
+}
+
+footer > table > tbody > tr > td > a {
+  color: #000;
+}
+
+footer > table > tbody > tr > td > p {
+  margin: 0px;
 }
 
 li {
@@ -40,6 +67,7 @@ li {
 
 body {
   font-family: "lucida_brite";
+  text-align: center;
 }
 
 .container {
@@ -71,4 +99,10 @@ img {
 	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
   text-align: center;
   font-style: italic;
+  word-spacing: 50px;
+  letter-spacing: 10px;
+}
+
+a {
+  color: #fff;
 }
