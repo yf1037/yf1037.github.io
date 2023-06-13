@@ -45,10 +45,6 @@ h2 {
   color: #fff;
 }
 
-header > table > tbody > tr > td {
-  width: 50%;
-}
-
 footer > table > tbody > tr > td {
   min-width: 10px;
 }
