@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "lucida_brite";
+  src: url('../fonts/LBRITEDI.TTF');
+}
+
+@font-face {
+  font-family: "lucida_handwrite";
+  src: url('../fonts/LHANDW.TTF');
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+h2 {
+  font-family: "lucida_brite";
+  display: block;
+  text-align: left;
+  width: auto;
+  height: 25px;
+  line-height: 32px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+}
+
+#heart-text {
+  font-family: 'lucida_handwrite';
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-color: #fff;
+	color: #fff;
+	font-size: 84px;
+	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-align: center;
+}
