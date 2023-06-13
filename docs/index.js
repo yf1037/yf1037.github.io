@@ -19,7 +19,7 @@ async function includeHTML(element, file) {
 
 //i18n below
 function setLanguage(language) {
-  if(language === "EN") {
+  if(language === "en") {
     document.location.href="/";
   }
   else {
@@ -28,14 +28,25 @@ function setLanguage(language) {
 }
 
 
-
 const headFile = "head.html";
 const headerFile = "header.html";
 const footerFile = "footer.html";
 includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
-    document.getElementById('languageSelector').addEventListener("change", (event) => {
-      setLanguage(event.target.value)
+    const pageLanguage = location.pathname.split('/')[1];
+    let langDropdown = document.getElementById('languageSelector');
+    let options = langDropdown.children;
+    
+    for(let idx = 0; idx < options.length; idx = idx + 1) {
+      let child = options[idx];
+      if(child.value === pageLanguage) {
+        child.setAttribute("selected", "selected");
+        break;
+      }
+    }
+
+    langDropdown.addEventListener("change", (event) => {
+      setLanguage(event.target.value.toLowerCase())
   });
 });
