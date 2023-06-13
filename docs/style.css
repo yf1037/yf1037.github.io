@@ -14,22 +14,37 @@ header {
   width: 100%;
 }
 
-h2 {
-  font-family: "lucida_brite";
-  display: block;
-  text-align: left;
-  width: auto;
-  height: 25px;
-  line-height: 32px;
-  box-sizing: border-box;
+footer {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+table {
+  width: 100%;
+
+}
+
+header > table > tbody > tr > td {
+  width: 50%;
+}
+
+li {
+  margin: 10px;
+  display: inline;
 }
 
 body {
-  margin: 0px;
+  font-family: "lucida_brite";
 }
 
 .container {
   position: relative;
+  margin: -8px;
 }
 
 .center {
@@ -55,4 +70,5 @@ img {
 	font-size: 84px;
 	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
   text-align: center;
+  font-style: italic;
 }
