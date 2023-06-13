@@ -85,7 +85,7 @@ body {
 
 .under {
   position: absolute;
-  bottom: 0%;
+  bottom: 5%;
   width: 100%;
 }
 
@@ -93,12 +93,12 @@ body {
   width: 100%;
   height: auto;
   min-height: 550px;
+  margin-bottom: 10px;
 }
 
 #heart-text {
   font-family: 'lucida_handwrite';
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 0px;
 	border-color: #fff;
 	color: #fff;
 	font-size: 84px;
@@ -120,4 +120,5 @@ a {
   max-height: 500px;
   margin-top: 0px;
   margin-bottom: 0px;
+  min-width: 400px;
 }
