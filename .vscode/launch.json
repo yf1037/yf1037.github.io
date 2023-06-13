@@ -5,11 +5,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
+      "command": "npm run build",
+      "name": "Build",
       "request": "launch",
-      "name": "Launch Edge against localhost",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}"
+      "type": "node-terminal",
+    },
+    {
+      "command": "npm run start",
+      "name": "Start Server",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
