@@ -52,7 +52,9 @@ includeHTML('header', headerFile).then(() => {
       if(child.value === pageLanguage) {
         child.setAttribute("selected", true);
         debug.innerHTML = child.getAttribute('selected');
-        break;
+      }
+      else {
+        child.setAttribute("selected", false);
       }
     }
 
