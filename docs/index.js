@@ -19,12 +19,15 @@ async function includeHTML(element, file) {
 
 //i18n below
 function setLanguage(language) {
-  if(language === "en") {
-    document.location.href="/";
+  const path = location.pathname.split('/', 3)[2];
+
+  let url = document.location.href="/";
+  if(language !== "en") {
+    url = url + language;
   }
-  else {
-    document.location.href="/" + language;
-  }
+  url = url + path;
+
+  document.location.href = url;
 }
 
 
@@ -34,12 +37,15 @@ const footerFile = "footer.html";
 includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
+    let debug = document.getElementById('debug');
+
     const pageLanguage = location.pathname.split('/')[1];
     let langDropdown = document.getElementById('languageSelector');
     let options = langDropdown.children;
     
     for(let idx = 0; idx < options.length; idx = idx + 1) {
       let child = options[idx];
+      debug.innerText = child.value + " " + pageLanguage;
       if(child.value === pageLanguage) {
         child.setAttribute("selected", "selected");
         break;
