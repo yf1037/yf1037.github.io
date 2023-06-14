@@ -12,5 +12,6 @@
   "Top": "<span class='Chinese'>顶部</span>",
   "More to come": "<span style='font-family: &#34;xingkai&#34;'>实时更新中。。。</span>",
   "Under construction": "<span style='font-family: &#34;xingkai&#34;'>建设中。。。</span>",
-  "Direction": "<span class='Chinese'>出行指南：</span>"
+  "Direction": "出行指南：",
+  "langcss": "cn.css"
 }
