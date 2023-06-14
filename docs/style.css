@@ -8,6 +8,16 @@
   src: url('fonts/LHANDW.TTF');
 }
 
+@font-face {
+  font-family: "xinwei";
+  src: url('../fonts/chinese.stxinwei.ttf');
+}
+
+@font-face {
+  font-family: "xingkai";
+  src: url('../fonts/chinese.stxingka.ttf');
+}
+
 header {
   position: sticky;
   z-index: 10;
