@@ -54,7 +54,7 @@ includeHTML('header', headerFile).then(() => {
         debug.innerHTML = child.getAttribute('selected');
       }
       else {
-        child.setAttribute("selected", false);
+        child.removeAttribute("selected");
       }
     }
 
