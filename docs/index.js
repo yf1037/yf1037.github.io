@@ -24,11 +24,10 @@ function setLanguage(language) {
 
   let url = "/";
   if(language !== "en") {
-    
     url = url + language + "/";
     path = pathArray[1];
   }
-  if(path) {
+  if(path && (language !== path)) {
     url = url + path;
   }
 
