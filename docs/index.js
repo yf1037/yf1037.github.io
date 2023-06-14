@@ -42,8 +42,17 @@ includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
     let langDropdown = document.getElementById('languageSelector');
+    const pathArray = location.pathname.split('/', 3);
 
     langDropdown.addEventListener("change", (event) => {
-      setLanguage(event.target.value.toLowerCase())
+      let lang = event.target.value.toLowerCase()
+      if (lang !== "sel") {
+        if ((lang !== pathArray[1]) && (lang !== "en")) {
+          setLanguage(lang)
+        }
+        if ((lang === "en") && !(pathArray[1].includes(".html")) && pathArray[1]) {
+          setLanguage(lang)
+        }
+      }
   });
 });
