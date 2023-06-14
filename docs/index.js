@@ -50,7 +50,7 @@ includeHTML('header', headerFile).then(() => {
     for(let idx = 0; idx < options.length; idx = idx + 1) {
       let child = options[idx];
       if(child.value === pageLanguage) {
-        child.setAttribute("selected", "selected");
+        child.setAttribute("selected", true);
         debug.innerHTML = child.getAttribute('selected');
         break;
       }
