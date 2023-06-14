@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy": "cpy src/* docs && cpy src/style/* docs/style && cpy src/media/* docs/media && cpy src/fonts/* docs/fonts",
+    "copy": "cpy src/* docs && cpy src/style/* docs/style",
     "compile": "static-i18n -l en -i en -i cn -o docs src/html",
     "build": "npm run compile && npm run copy",
     "start": "http-server docs"
