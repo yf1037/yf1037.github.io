@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "SAY wedding website",
   "main": "index.js",
+  "type":"module",
   "directories": {
     "doc": "docs"
   },
@@ -16,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@splidejs/splide": "^4.1.4",
     "cpy-cli": "^4.2.0",
     "http-server": "^14.1.1",
     "static-i18n": "^0.2.10"

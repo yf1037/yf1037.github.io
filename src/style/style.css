@@ -130,3 +130,18 @@ a {
 .under-construction {
   font-size: 84px;
 }
+
+.splide__slide img {
+  width: 5%;
+  height: 5%S;
+  object-fit: cover;
+}
+
+.splide__slide {
+  opacity: 0.6;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
+
