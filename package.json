@@ -8,12 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "static-i18n -l en -i en -i cn -o docs src",
+    "copy": "cpy src/* docs && cpy src/style/* docs/style && cpy src/media/* docs/media && cpy src/fonts/* docs/fonts",
+    "compile": "static-i18n -l en -i en -i cn -o docs src/html",
+    "build": "npm run compile && npm run copy",
     "start": "http-server docs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cpy-cli": "^4.2.0",
     "http-server": "^14.1.1",
     "static-i18n": "^0.2.10"
   }

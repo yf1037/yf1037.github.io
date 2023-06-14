@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "lucida_brite";
+  src: url('../fonts/LBRITEDI.TTF');
+}
+
+@font-face {
+  font-family: "lucida_handwrite";
+  src: url('../fonts/LHANDW.TTF');
+}
+
+body {
+  font-family: "lucida_brite";
+  text-align: center;
+  font-size: 16px;
+}
+
+#heart-text {
+  font-family: 'lucida_handwrite';
+	margin: 0px;
+	border-color: #fff;
+	color: #fff;
+	font-size: 84px;
+	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+.under-construction {
+  font-family: 'lucida_handwrite';
+  font-size: 84px;
+}
