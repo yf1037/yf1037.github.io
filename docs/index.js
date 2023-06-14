@@ -41,6 +41,8 @@ const footerFile = "footer.html";
 includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
+    let debug = document.getElementById('debug');
+
     const pageLanguage = location.pathname.split('/')[1];
     let langDropdown = document.getElementById('languageSelector');
     let options = langDropdown.children;
@@ -48,6 +50,7 @@ includeHTML('header', headerFile).then(() => {
     for(let idx = 0; idx < options.length; idx = idx + 1) {
       let child = options[idx];
       if(child.value === pageLanguage) {
+        debug.innerHTML = child.value;
         child.setAttribute("selected", "selected");
         break;
       }
