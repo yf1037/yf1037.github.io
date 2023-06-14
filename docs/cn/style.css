@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "xinwei";
+  src: url('../fonts/chinese.stxinwei.ttf');
+}
+
+@font-face {
+  font-family: "xingkai";
+  src: url('../fonts/chinese.stxingka.ttf');
+}
+
+@font-face {
+  font-family: "lucida_handwrite";
+  src: url('fonts/LHANDW.TTF');
+}
+
+header {
+  position: sticky;
+  z-index: 10;
+  width: 100%;
+  text-shadow: 1px 1px 6px #000;
+  background-color: #bda2c3;
+  text-transform: capitalize;
+}
+
+footer {
+  position: sticky;
+  z-index: 10;
+  width: 100%;
+  margin-top: 10px;
+  bottom: 0;
+  left: 0;
+}
+
+.border {
+  border-top: 1px solid #D0D1D2;
+}
+
+.right {
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  text-align: left;
+  color: #fff;
+}
+
+footer > table > tbody > tr > td {
+  min-width: 10px;
+}
+
+footer > table > tbody > tr > td > a {
+  color: #000;
+}
+
+footer > table > tbody > tr > td > p {
+  margin: 0px;
+}
+
+li {
+  margin: 10px;
+  display: inline;
+}
+
+body {
+  font-family: "xinwei";
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  margin: -8px;
+}
+
+.center {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.under {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+
+.main-img { 
+  width: 100%;
+  height: auto;
+  min-height: 550px;
+  margin-bottom: 10px;
+}
+
+#heart-text {
+  font-family: 'lucida_handwrite';
+	margin: 0px;
+	border-color: #fff;
+	color: #fff;
+	font-size: 84px;
+	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.decor {
+  width: 50%;
+  height: auto;
+  min-height: 200px;
+  max-height: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-width: 400px;
+}
+
+.under-construction {
+  font-family: "xingkai";
+  font-size: 84px;
+}
+
+#heart {
+  color: #BDA2C3;
+}
