@@ -1,21 +1,16 @@
 @font-face {
   font-family: "lucida_brite";
-  src: url('fonts/LBRITEDI.TTF');
+  src: url('../fonts/LBRITEDI.TTF');
 }
 
 @font-face {
   font-family: "lucida_handwrite";
-  src: url('fonts/LHANDW.TTF');
+  src: url('../fonts/LHANDW.TTF');
 }
 
-@font-face {
-  font-family: "xinwei";
-  src: url('../fonts/chinese.stxinwei.ttf');
-}
-
-@font-face {
-  font-family: "xingkai";
-  src: url('../fonts/chinese.stxingka.ttf');
+.fix-font{
+  font-family: 'lucida_brite';
+  font-size: 16px;
 }
 
 header {
@@ -75,12 +70,6 @@ li {
   display: inline;
 }
 
-body {
-  font-family: "lucida_brite";
-  text-align: center;
-  font-size: 18px;
-}
-
 .container {
   position: relative;
   margin: -8px;
@@ -107,18 +96,6 @@ body {
   margin-bottom: 10px;
 }
 
-#heart-text {
-  font-family: 'lucida_handwrite';
-	margin: 0px;
-	border-color: #fff;
-	color: #fff;
-	font-size: 84px;
-	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
-  text-align: center;
-  font-style: italic;
-  letter-spacing: 5px;
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -134,11 +111,22 @@ a {
   min-width: 400px;
 }
 
-.under-construction {
-  font-family: lucida_handwrite;
-  font-size: 84px;
-}
-
 #heart {
   color: #BDA2C3;
+}
+
+#heart-text {
+  font-family: "lucida_handwrite";
+	margin: 0px;
+	border-color: #fff;
+	color: #fff;
+	font-size: 84px;
+	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+.under-construction {
+  font-size: 84px;
 }

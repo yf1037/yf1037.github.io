@@ -1,16 +1,19 @@
 {
   "LANGUAGE": "en",
-  "VENUE_INFO": "VENUE INFO",
+  "langcss": "style/en.css",
+  "VENUE_INFO": "VENUE",
   "ACCOMMODATION-C":"ACCOMMODATION",
   "ACCOMMODATION":"Accomodation",
   "GALLERY":"GALLERY",
   "REGISTRY":"REGISTRY",
   "CONGRATS":"CONGRATS",
   "Our Wedding":"Our Wedding",
-  "Date: MM/DD/YYY":"Date: MM/DD/YYYY",
+  "Date":"Date: MM/DD/YYYY",
   "More info": "More info >",
   "Top": "Top",
   "More to come": "More to come...",
   "Under construction": "Under construction...",
-  "Direction": "Direction:"
+  "Direction": "Direction:",
+  "404": "404: Page not found",
+  "Address": ""
 }

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "xinwei";
+  src: url('../fonts/chinese.stxinwei.ttf');
+}
+
+@font-face {
+  font-family: "xingkai";
+  src: url('../fonts/chinese.stxingka.ttf');
+}
+
+body {
+  font-family: "xinwei";
+  text-align: center;
+  font-size: 20px;
+}
+
+.handwrite {
+  font-family: "xingkai";
+}
