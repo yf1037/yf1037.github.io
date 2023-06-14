@@ -8,12 +8,13 @@
   "REGISTRY":"REGISTRY",
   "CONGRATS":"CONGRATS",
   "Our Wedding":"Our Wedding",
-  "Date":"Date: MM/DD/YYYY",
+  "Date":"MM/DD/YYYY",
   "More info": "More info >",
   "Top": "Top",
   "More to come": "More to come...",
   "Under construction": "Under construction...",
   "Direction": "Direction:",
   "404": "404: Page not found",
-  "Address": ""
+  "Address": "",
+  "location": ""
 }
