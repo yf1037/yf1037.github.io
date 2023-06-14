@@ -12,7 +12,7 @@ header {
   position: sticky;
   z-index: 10;
   width: 100%;
-  text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-shadow: 1px 1px 6px #000;
   background-color: #bda2c3;
   text-transform: capitalize;
 }
@@ -46,7 +46,6 @@ h1 {
 h2 {
   text-align: left;
   color: #fff;
-  text-shadow: 1px 1px 5px #000, 1px 1px 6px #000;
 }
 
 footer > table > tbody > tr > td {
