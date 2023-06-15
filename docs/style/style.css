@@ -132,8 +132,8 @@ a {
 }
 
 .splide__slide img {
-  width: 5%;
-  height: 5%S;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
 }
 
