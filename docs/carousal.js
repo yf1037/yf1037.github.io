@@ -3,7 +3,7 @@
 document.addEventListener( 'DOMContentLoaded', function () {
   var main = new Splide( '#main-carousel', {
     Width: '100%',
-    height: "50vw",
+    height: "40vw",
     type      : 'fade',
     rewind    : true,
     pagination: false,
