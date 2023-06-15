@@ -1,4 +1,4 @@
-import Splide from 'splide';
+// import Splide from './libs/splide-4.1.3';
 
 document.addEventListener( 'DOMContentLoaded', function () {
   var main = new Splide( '#main-carousel', {
@@ -21,10 +21,10 @@ document.addEventListener( 'DOMContentLoaded', function () {
         fixedHeight: 44,
       },
     },
-  } ).mount();
-} );
+  } );
 
-main.sync( thumbnails );
-main.mount();
-thumbnails.mount();
+  main.sync( thumbnails );
+  main.mount();
+  thumbnails.mount();
+} );
 
