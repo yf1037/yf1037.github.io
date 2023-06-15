@@ -2,19 +2,22 @@
 
 document.addEventListener( 'DOMContentLoaded', function () {
   var main = new Splide( '#main-carousel', {
+    Width: '100%',
+    height: "50vw",
     type      : 'fade',
     rewind    : true,
     pagination: false,
-    arrows    : false,
+    arrows    : true,
   } );
   
   var thumbnails = new Splide( '#thumbnail-carousel', {
-    fixedWidth  : 100,
-    fixedHeight : 60,
+    fixedWidth  : 110,
+    fixedHeight : 80,
     gap         : 10,
     rewind      : true,
     pagination  : false,
     isNavigation: true,
+    arrows    : false,
     breakpoints : {
       600: {
         fixedWidth : 60,
