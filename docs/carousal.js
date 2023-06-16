@@ -87,6 +87,22 @@ var imageList = [
     'events/OROG4664.jpg',
     'events/FFQE4978.jpg',  
     'events/IMG_3318.jpg'
+  ],
+  [
+    'say_over_the_years/2019.jpg',
+    'say_over_the_years/2020_1.jpg',
+    'say_over_the_years/2020_2.jpg',
+    'say_over_the_years/2020_3.jpg',
+    'say_over_the_years/2021_1.jpg',
+    'say_over_the_years/2021_2.jpg',
+    'say_over_the_years/2021_3.jpg',
+    'say_over_the_years/2022_1.jpg',
+    'say_over_the_years/2022_2.jpg',
+    'say_over_the_years/2022_3.jpg',
+    'say_over_the_years/2022_4.jpg',
+    'say_over_the_years/2022_5.jpg',
+    'say_over_the_years/2023.jpg',
+    'say_over_the_years/2023_2.jpg'
   ]
 ];
 
@@ -99,4 +115,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', createCarousels(2) );
+document.addEventListener( 'DOMContentLoaded', createCarousels(3) );
