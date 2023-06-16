@@ -117,4 +117,6 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', createCarousels(3) );
+document.addEventListener( 'load', createCarousels(3) );
+//DOMContentLoaded: 0.95s, no text formating first
+//load: 1.1s, text always formated
