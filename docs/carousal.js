@@ -8,12 +8,12 @@ function createCarouselHTML(tagName, name, images) {
   let innerHTML = "";
   innerHTML += '<section id="main-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="' + images[idx] + '" alt=""></li>';
+    innerHTML += '<li class="splide__slide"><img src="/media/' + images[idx] + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
   innerHTML += '<section id="thumbnail-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="' + images[idx] + '" alt=""></li>';
+    innerHTML += '<li class="splide__slide"><img src="/media/' + images[idx] + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
 
@@ -53,40 +53,40 @@ function createCarouselJS(name) {
 
 var imageList = [
   [
-    'media/st_patricks_day/Proof 038.jpg',
-    'media/st_patricks_day/Proof 044.jpg',
-    'media/st_patricks_day/Proof 048.jpg',
-    'media/st_patricks_day/Proof 101.jpg',
-    'media/st_patricks_day/Proof 106.jpg',
-    'media/st_patricks_day/Proof 131.jpg',
-    'media/st_patricks_day/Proof 149.jpg',
-    'media/st_patricks_day/Proof 034.jpg',
-    'media/st_patricks_day/Proof 164.jpg',
-    'media/st_patricks_day/Proof 019.jpg'
+    'st_patricks_day/Proof 038.jpg',
+    'st_patricks_day/Proof 044.jpg',
+    'st_patricks_day/Proof 048.jpg',
+    'st_patricks_day/Proof 101.jpg',
+    'st_patricks_day/Proof 106.jpg',
+    'st_patricks_day/Proof 131.jpg',
+    'st_patricks_day/Proof 149.jpg',
+    'st_patricks_day/Proof 034.jpg',
+    'st_patricks_day/Proof 164.jpg',
+    'st_patricks_day/Proof 019.jpg'
   ],
   [
-    'media/events/IMG_6878.jpg',
-    'media/events/IMG_6026.jpg',
-    'media/events/IMG_5822.jpg',
-    'media/events/IMG_6877.jpg',
-    'media/events/IMG_6317.jpg',
-    'media/events/WeChat Image_20230602104135.jpg',
-    'media/events/WeChat Image_20230602104112.jpg',
-    'media/events/IMG_E6453.jpg',
-    'media/events/IMG_6755.jpg',
-    'media/events/MVAEE6641.jpg',
-    'media/events/IMG_8358.jpg',
-    'media/events/IMG_6961.jpg',
-    'media/events/IMG_6918.jpg',
-    'media/events/WeChat Image_20230602172222.jpg',
-    'media/events/WeChat Image_20230602172239.jpg',
-    'media/events/WeChat Image_20230531220409.jpg',
-    'media/events/WeChat Image_20230531220338.jpg',
-    'media/events/IMG_9473.jpg',
-    'media/events/DYXA0340.jpg',
-    'media/events/OROG4664.jpg',
-    'media/events/FFQE4978.jpg',  
-    'media/events/IMG_3318.jpg'
+    'events/IMG_6878.jpg',
+    'events/IMG_6026.jpg',
+    'events/IMG_5822.jpg',
+    'events/IMG_6877.jpg',
+    'events/IMG_6317.jpg',
+    'events/WeChat Image_20230602104135.jpg',
+    'events/WeChat Image_20230602104112.jpg',
+    'events/IMG_E6453.jpg',
+    'events/IMG_6755.jpg',
+    'events/MVAEE6641.jpg',
+    'events/IMG_8358.jpg',
+    'events/IMG_6961.jpg',
+    'events/IMG_6918.jpg',
+    'events/WeChat Image_20230602172222.jpg',
+    'events/WeChat Image_20230602172239.jpg',
+    'events/WeChat Image_20230531220409.jpg',
+    'events/WeChat Image_20230531220338.jpg',
+    'events/IMG_9473.jpg',
+    'events/DYXA0340.jpg',
+    'events/OROG4664.jpg',
+    'events/FFQE4978.jpg',  
+    'events/IMG_3318.jpg'
   ]
 ];
 
