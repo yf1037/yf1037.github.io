@@ -3,15 +3,15 @@
 document.addEventListener( 'DOMContentLoaded', function () {
   var main = new Splide( '#main-carousel', {
     Width: '100%',
-    height: "40vw",
+    height: "30vw",
     type      : 'fade',
     rewind    : true,
-    pagination: false,
+    pagination: true,
     arrows    : true,
   } );
-  
+
   var thumbnails = new Splide( '#thumbnail-carousel', {
-    fixedWidth  : 110,
+    fixedWidth  : 125,
     fixedHeight : 80,
     gap         : 10,
     rewind      : true,
