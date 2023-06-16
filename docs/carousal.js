@@ -8,12 +8,12 @@ function createCarouselHTML(tagName, name, images) {
   let innerHTML = "";
   innerHTML += '<section id="main-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="/media/' + images[idx] + '" alt=""></li>';
+    innerHTML += '<li class="splide__slide"><img data-splide-lazy="/media/' + images[idx] + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
   innerHTML += '<section id="thumbnail-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="/media/' + images[idx] + '" alt=""></li>';
+    innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx] + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
 
@@ -28,6 +28,7 @@ function createCarouselJS(name) {
     rewind    : true,
     pagination: true,
     arrows    : true,
+    lazyLoad: 'nearby'
   } );
 
   var thumbnails = new Splide( '#thumbnail-' + name, {
@@ -38,12 +39,13 @@ function createCarouselJS(name) {
     pagination  : false,
     isNavigation: true,
     arrows    : false,
+    lazyLoad: 'sequential',
     breakpoints : {
       600: {
         fixedWidth : 60,
         fixedHeight: 44,
-      },
-    },
+      }
+    }
   } );
 
   main.sync( thumbnails );
