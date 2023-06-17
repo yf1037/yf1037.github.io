@@ -102,6 +102,7 @@ a {
 }
 
 .decor {
+  position: relative;
   width: 50%;
   height: auto;
   min-height: 200px;
@@ -109,6 +110,7 @@ a {
   margin-top: 0px;
   margin-bottom: 0px;
   min-width: 400px;
+  z-index: -5;
 }
 
 #heart {
