@@ -153,6 +153,73 @@ var imageList = [
     'WA/WeChat Image_20230531213317.jpg',
     'WA/WeChat Image_20230531215303.jpg',
     'WA/IMG_9762.jpg'
+  ],
+  [
+    'CO/WeChat Image_20230602101217.jpg'
+  ],
+  [
+    'DC/IMG_7242.jpg',
+    'DC/IMG_7295.jpg',
+    'DC/IMG_7227.jpg',
+    'DC/IMG_7234.jpg',
+    'DC/IMG_7239.jpg',
+    'DC/IMG_7252.jpg',
+    'DC/IMG_7291.jpg',
+    'DC/IMG_7301.jpg',
+    'DC/WeChat Image_20230602105239.jpg',
+    'DC/WeChat Image_20230602105250.jpg'
+  ],
+  [
+    'acadia/IMG_6772.jpg',
+    'acadia/IMG_6771.jpg',
+    'acadia/IMG_6769.jpg',
+    'acadia/WeChat Image_20230602112944.jpg',
+    'acadia/WeChat Image_20230602112936.jpg',
+    'acadia/WeChat Image_20230602112843.jpg',
+    'acadia/IMG_6790.jpg',
+    'acadia/IMG_6841.jpg',
+    'acadia/IMG_6802.jpg',
+    'acadia/WeChat Image_20230602112828.jpg',
+    'acadia/WeChat Image_20230602112849.jpg',
+    'acadia/WeChat Image_20230602112819.jpg',
+    'acadia/WeChat Image_20230602112836.jpg',
+    'acadia/WeChat Image_20230602112906.jpg',
+    'acadia/WeChat Image_20230602112858.jpg',
+    'acadia/WeChat Image_20230602112711.jpg',
+    'acadia/WeChat Image_20230602112736.jpg',
+    'acadia/IMG_6783.jpg',
+    'acadia/WeChat Image_20230602112921.jpg',
+    'acadia/IMG_6829.jpg',
+    'acadia/WeChat Image_20230602112914.jpg',
+    'acadia/WeChat Image_20230602112751.jpg'
+  ],
+  [
+    'canada/IMG_5646.jpg',
+    'canada/IMG_5624.jpg',
+    'canada/IMG_5648.jpg',
+    'canada/IMG_5605.jpg',
+    'canada/20200226_142206.jpg',
+    'canada/IMG_5662.jpg',
+    'canada/UFCZ0057.jpg',
+    'canada/IMG_5660.jpg'
+  ],
+  [
+    'home/WeChat Image_20230602164720.jpg',
+    'home/WeChat Image_20230602164746.jpg',
+    'home/IMG_8506.jpg',
+    'home/IMG_8504.jpg',
+    'home/IMG_6677.jpg',
+    'home/IMG_6680.jpg',
+    'home/IMG_6675.jpg',
+    'home/IMG_6674.jpg',
+    'home/WeChat Image_20230602165825.jpg',
+    'home/WeChat Image_20230602104326.jpg',
+    'home/IMG_E7157.jpg',
+    'home/IMG_E7160.jpg',
+    'home/WeChat Image_20230602105151.jpg',
+    'home/WeChat Image_20230602105128.jpg',
+    'home/WeChat Image_20230602105141.jpg',
+    'home/IMG_7044.jpg'
   ]
 ];
 
@@ -165,6 +232,6 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'load', createCarousels(5) );
+document.addEventListener( 'load', createCarousels(10) );
 //DOMContentLoaded: 0.95s, no text formating first
 //load: 1.1s, text always formated
