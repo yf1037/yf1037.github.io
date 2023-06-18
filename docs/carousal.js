@@ -124,6 +124,35 @@ var imageList = [
     'cats/IMG_9548.jpg',
     'cats/VYPU7202.jpg',
     'cats/WeChat Image_20230602102606.jpg'
+  ],
+  [
+    'WA/CPZUE4313.jpg',
+    'WA/IMG_0147.jpg',
+    'WA/WeChat Image_20230531213241.jpg',
+    'WA/WeChat Image_20230531213303.jpg',
+    'WA/WeChat Image_20230531213234.jpg',
+    'WA/WeChat Image_20230531213226.jpg',
+    'WA/WeChat Image_20230531213249.jpg',
+    'WA/WeChat Image_20230531213152.jpg',
+    'WA/WeChat Image_20230531213205.jpg',
+    'WA/WeChat Image_20230531213219.jpg',
+    'WA/WeChat Image_20230531213040.jpg',
+    'WA/WeChat Image_20230531213009.jpg',
+    'WA/WeChat Image_20230531213139.jpg',
+    'WA/IMG_9910.jpg',
+    'WA/WeChat Image_20230531213310.jpg',
+    'WA/WeChat Image_20230531212616.jpg',
+    'WA/IMG_0022.jpg',
+    'WA/WeChat Image_20230531212851.jpg',
+    'WA/WeChat Image_20230531212628.jpg',
+    'WA/WeChat Image_20230531212548.jpg',
+    'WA/IMG_0042.jpg',
+    'WA/WeChat Image_20230531212952.jpg',
+    'WA/WeChat Image_20230531212928.jpg',
+    'WA/WeChat Image_20230531210909.jpg',
+    'WA/WeChat Image_20230531213317.jpg',
+    'WA/WeChat Image_20230531215303.jpg',
+    'WA/IMG_9762.jpg'
   ]
 ];
 
@@ -136,6 +165,6 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'load', createCarousels(4) );
+document.addEventListener( 'load', createCarousels(5) );
 //DOMContentLoaded: 0.95s, no text formating first
 //load: 1.1s, text always formated
