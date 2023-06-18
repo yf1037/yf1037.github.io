@@ -13,7 +13,7 @@ function createCarouselHTML(tagName, name, images) {
   innerHTML += '</ul></div></section>';
   innerHTML += '<section id="thumbnail-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx] + '" alt=""></li>';
+    innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx].replace('.mp4','.jpg') + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
 
@@ -105,6 +105,25 @@ var imageList = [
     'say_over_the_years/2022_5.jpg',
     'say_over_the_years/2023.jpg',
     'say_over_the_years/2023_2.jpg'
+  ],
+  [
+    'cats/IMG_7621.jpg',
+    'cats/IMG_7600.jpg',
+    'cats/IMG_7650.jpg',
+    'cats/IMG_8152.jpg',
+    'cats/IMG_7672.jpg',
+    'cats/WeChat Image_20230602165850.jpg',
+    'cats/WeChat Image_20230602094438.jpg',
+    'cats/IMG_8262.jpg',
+    'cats/WeChat Image_20230602165836.jpg',    
+    'cats/IMG_8314.jpg',
+    'cats/IMG_8324.jpg',
+    'cats/WeChat Image_20230602100031.jpg',
+    'cats/WeChat Image_20230602100016.jpg',
+    'cats/WeChat Image_20230602102239.jpg',
+    'cats/IMG_9548.jpg',
+    'cats/VYPU7202.jpg',
+    'cats/WeChat Image_20230602102606.jpg'
   ]
 ];
 
@@ -117,6 +136,6 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'load', createCarousels(3) );
+document.addEventListener( 'load', createCarousels(4) );
 //DOMContentLoaded: 0.95s, no text formating first
 //load: 1.1s, text always formated
