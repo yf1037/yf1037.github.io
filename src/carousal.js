@@ -40,6 +40,7 @@ function createCarouselJS(name) {
     isNavigation: true,
     arrows    : false,
     lazyLoad: 'sequential',
+    focus      : 'center',
     breakpoints : {
       600: {
         fixedWidth : 60,
