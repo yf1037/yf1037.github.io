@@ -5,6 +5,7 @@
   "ACCOMMODATION-C":"住宿",
   "ACCOMMODATION": "住宿",
   "GALLERY": "照片墙",
+  "Gallery": "照片墙",
   "REGISTRY": "礼物单",
   "CONGRATS": "贺词",
   "Our Wedding": "婚礼",
@@ -32,5 +33,7 @@
   "Canada": "加拿大，2020",
   "ourhome": "我们的家",
   "pre-pandemic": "疫情之前",
-  "quarentine": "疫情期间"
+  "quarentine": "疫情期间",
+  "more": "更多 >",
+  "join discussion": "送上你的祝福 >"
 }

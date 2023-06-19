@@ -234,6 +234,7 @@ var imageList = [
   ],
   [
     'home/WeChat Image_20230602164720.jpg',
+    'home/WeChat Image_20230619170803.jpg',
     'home/WeChat Image_20230602164746.jpg',
     'home/IMG_8506.jpg',
     'home/IMG_8504.jpg',
@@ -261,6 +262,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'load', createCarousels(10) );
-//DOMContentLoaded: 0.95s, no text formating first
-//load: 1.1s, text always formated
+document.addEventListener( 'DOMContentLoaded', createCarousels(10) );

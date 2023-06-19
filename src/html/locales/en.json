@@ -5,6 +5,7 @@
   "ACCOMMODATION-C":"ACCOMMODATION",
   "ACCOMMODATION":"Accomodation",
   "GALLERY":"GALLERY",
+  "Gallery":"Gallery",
   "REGISTRY":"REGISTRY",
   "CONGRATS":"CONGRATS",
   "Our Wedding":"Our Wedding",
@@ -32,5 +33,7 @@
   "Canada": "Canada, 2020",
   "ourhome": "Our home",
   "pre-pandemic": "Pre-pandemic",
-  "quarentine": "Quarantine"
+  "quarentine": "Quarantine",
+  "more": "More >",
+  "join discussion": "Say congrats >"
 }
