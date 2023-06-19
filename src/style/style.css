@@ -112,7 +112,7 @@ li {
 
 .under {
   position: absolute;
-  bottom: 5%;
+  top: 75%;
   width: 100%;
 }
 
