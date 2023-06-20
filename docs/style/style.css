@@ -188,3 +188,13 @@ a {
 .splide__slide.is-active {
   opacity: 1;
 }
+
+.Underline {
+  color: black; 
+  text-decoration: underline;
+}
+
+.list{
+  display: list-item;
+  text-align: left;
+}
