@@ -197,4 +197,5 @@ a {
 .list{
   display: list-item;
   text-align: left;
+  font-size: 1em;
 }
