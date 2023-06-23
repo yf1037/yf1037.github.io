@@ -250,6 +250,92 @@ var imageList = [
     'home/WeChat Image_20230602105128.jpg',
     'home/WeChat Image_20230602105141.jpg',
     'home/IMG_7044.jpg'
+  ],
+  [
+    'pre-pandemic/IMG_5454.jpg',
+    'pre-pandemic/IMG_5449.jpg',
+    'pre-pandemic/IMG_5844.jpg',
+    'pre-pandemic/IMG_5843.jpg',
+    'pre-pandemic/IMG_5542.jpg',
+    'pre-pandemic/IMG_5525.jpg',
+    'pre-pandemic/IMG_5482.jpg',
+    'pre-pandemic/IMG_5468.jpg'
+  ],
+  [
+    'quarentine/20200112_140923.jpg',
+    'quarentine/IMG_0090.jpg',
+    'quarentine/IMG_0252.jpg',
+    'quarentine/IMG_5815.jpg',
+    'quarentine/IMG_5774.jpg',
+    'quarentine/IMG_5846.jpg',
+    'quarentine/IMG_5814.jpg',
+    'quarentine/20200906_211658.jpg',
+    'quarentine/IMG_5878.jpg',
+    'quarentine/IMG_5872.jpg',
+    'quarentine/IMG_5861.jpg',
+    'quarentine/IMG_5862.jpg',
+    'quarentine/IMG_5848.jpg',
+    'quarentine/IMG_5889.jpg',
+    'quarentine/IMG_5891.jpg'
+  ],
+  [
+    '2021/2020christmas.jpg',
+    '2021/20210202_145703.jpg',
+    '2021/20210205_111955.jpg',
+    '2021/20210201_180726.jpg',
+    '2021/20210404_171956.jpg',
+    '2021/20210424_120349.jpg',
+    '2021/20210424_121541.jpg',
+    '2021/20210705_134408.jpg',
+    '2021/20210620_193406.jpg',
+    '2021/20210620_184130.jpg',
+    '2021/IMG_6726.jpg',
+    '2021/IMG_6721.jpg',
+    '2021/IMG_6690.jpg',
+    '2021/WeChat Image_20230602113004.jpg',
+    '2021/WeChat Image_20230602112951.jpg',
+    '2021/food0-1.jpg',
+    '2021/pic1.jpg',
+    '2021/My project-1.jpg',
+    '2021/IMG_7024.jpg',
+    '2021/WeChat Image_20230602105043.jpg',
+    '2021/WeChat Image_20230602113033.jpg',
+    '2021/IMG_E7136.jpg',
+    '2021/IMG_E7138.jpg',
+    '2021/WeChat Image_20230602105109.jpg',
+    '2021/2021.jpg'
+  ],
+  [
+    '2022/2022.jpg',
+    '2022/WeChat Image_20230602105210.jpg',
+    '2022/My project-1.jpg',
+    '2022/WeChat Image_20230602104147.jpg',
+    '2022/WeChat Image_20230602104124.jpg',
+    '2022/WeChat Image_20230602104218.jpg',
+    '2022/WeChat Image_20230602094246.jpg',
+    '2022/WeChat Image_20230602094417.jpg',
+    '2022/WeChat Image_20230602094340.jpg',
+    '2022/WeChat Image_20230602104050.jpg',
+    '2022/WeChat Image_20230602104025.jpg',
+    '2022/WeChat Image_20230602103935.jpg',
+    '2022/IMG_7203.jpg',
+    '2022/WeChat Image_20230602104038.jpg',
+    '2022/IMG_7432.jpg',
+    '2022/WeChat Image_20230602105231.jpg',
+    '2022/WeChat Image_20230602104316.jpg',
+    '2022/BRCW5111.jpg',
+    '2022/WeChat Image_20230602094350.jpg',
+    '2022/IMG_8284.jpg',
+    '2022/YCXL9182.jpg',
+    '2022/WeChat Image_20230602105217.jpg',
+    '2022/IMG_8346.jpg',
+    '2022/IMG_8200.jpg',
+    '2022/My project-1 (2).jpg',
+    '2022/WeChat Image_20230602102332.jpg',
+    '2022/WeChat Image_20230602102513.jpg',
+    '2022/WeChat Image_20230602102547.jpg',
+    '2022/WeChat Image_20230602102558.jpg',
+    '2022/WeChat Image_20230531220440.jpg'
   ]
 ];
 
@@ -262,4 +348,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', createCarousels(10) );
+document.addEventListener( 'DOMContentLoaded', createCarousels(14) );
