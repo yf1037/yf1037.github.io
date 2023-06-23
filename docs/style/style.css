@@ -201,3 +201,15 @@ a {
   display: list-item;
   text-align: left;
 }
+
+.img {
+  position:relative;
+}
+
+.img img {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
