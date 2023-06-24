@@ -20,11 +20,45 @@
   .mobile > select {
     max-width: 50px;
   }
+
+  .fix-font{
+    font-family: 'lucida_brite';
+    font-size: 4px;
+  }
+
+  #heart-text {
+    font-family: "lucida_handwrite";
+    margin: 0px;
+    border-color: #fff;
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 1px 1px 9px #000, 1px 1px 1px #000;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
 }
 
 @media all and (min-width: 600px) {
   .mobile {
     display: none;
+  }
+    
+  .fix-font{
+    font-family: 'lucida_brite';
+    font-size: 16px;
+  }
+  
+  #heart-text {
+    font-family: "lucida_handwrite";
+    margin: 0px;
+    border-color: #fff;
+    color: #fff;
+    font-size: 84px;
+    text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 5px;
   }
 }
 
@@ -48,11 +82,6 @@ iframe {
   min-height: 20em;
   margin-top: 2vw;
   border-color: transparent; 
-}
-
-.fix-font{
-  font-family: 'lucida_brite';
-  font-size: 16px;
 }
 
 .full {
@@ -137,7 +166,6 @@ li {
   top: 60%;
   width: 100%;
   text-align: center;
-  font-size: 18px;
 }
 
 .under {
@@ -191,18 +219,6 @@ a {
 
 #heart {
   color: #BDA2C3;
-}
-
-#heart-text {
-  font-family: "lucida_handwrite";
-	margin: 0px;
-	border-color: #fff;
-	color: #fff;
-	font-size: 84px;
-	text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
-  text-align: center;
-  font-style: italic;
-  letter-spacing: 5px;
 }
 
 .splide__slide img {
