@@ -8,7 +8,7 @@
   src: url('../fonts/LHANDW.TTF');
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
   select {
     font-size: 100%;
   }
@@ -22,21 +22,43 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media all and (min-width: 600px) {
   .mobile {
     display: none;
   }
 }
 
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.reverse {
+  flex-flow: row-reverse wrap;
+}
+
+.flex > * {
+  max-width: 40em;
+  flex-grow: 1;
+}
+
 iframe {
-  margin-top: 1.5vw;
-  border-color: transparent;
-  margin-right: 10%;
+  width: 100%;
+  height: 80%;
+  min-height: 20em;
+  margin-top: 2vw;
+  border-color: transparent; 
 }
 
 .fix-font{
   font-family: 'lucida_brite';
   font-size: 16px;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
 }
 
 header {
