@@ -44,16 +44,11 @@
 }
 
 iframe {
-<<<<<<< HEAD
   width: 100%;
   height: 80%;
   min-height: 20em;
   margin-top: 2vw;
   border-color: transparent; 
-=======
-  border-color: transparent;
-  margin-right: 10%;
->>>>>>> dev
 }
 
 .fix-font{
