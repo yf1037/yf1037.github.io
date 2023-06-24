@@ -8,10 +8,20 @@
   src: url('../fonts/chinese.stxingka.ttf');
 }
 
-body {
-  font-family: "xinwei";
-  text-align: center;
-  font-size: 20px;
+@media all and (max-width: 600px) {
+  body {
+    font-family: "xinwei";
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  body {
+    font-family: "xinwei";
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
 .handwrite {
