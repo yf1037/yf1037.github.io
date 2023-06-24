@@ -159,6 +159,7 @@ li {
 .container {
   position: relative;
   margin: -8px;
+  margin-bottom: 5px;
 }
 
 .center {
@@ -205,9 +206,7 @@ a {
   position: relative;
   width: 30%;
   height: auto;
-  min-height: 120px;
   max-height: 200px;
-  min-width: 200px;
   max-width: 300px;
   margin-top: 0px;
   margin-bottom: 0px;
