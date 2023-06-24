@@ -23,7 +23,7 @@
 
   .fix-font{
     font-family: 'lucida_brite';
-    font-size: 4px;
+    font-size: 6px;
   }
 
   #heart-text {
@@ -31,8 +31,8 @@
     margin: 0px;
     border-color: #fff;
     color: #fff;
-    font-size: 20px;
-    text-shadow: 1px 1px 9px #000, 1px 1px 1px #000;
+    font-size: 25px;
+    text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
     text-align: center;
     font-style: italic;
     letter-spacing: 1px;
@@ -183,7 +183,6 @@ li {
 .main-img { 
   width: 100%;
   height: auto;
-  min-height: 550px;
   margin-bottom: 10px;
 }
 
@@ -196,11 +195,9 @@ a {
   position: relative;
   width: 50%;
   height: auto;
-  min-height: 200px;
   max-height: 500px;
   margin-top: 0px;
   margin-bottom: 0px;
-  min-width: 400px;
   z-index: -5;
 }
 
