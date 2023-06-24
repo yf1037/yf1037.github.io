@@ -116,9 +116,9 @@
 
 @media all and (max-width: 600px) {
   .splide__pagination__page{
-    height:1px;
-    margin:1px;
-    width:5px
+    height:2px;
+    margin:2px;
+    width:8px
   }
 }
 
