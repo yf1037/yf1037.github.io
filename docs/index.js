@@ -44,7 +44,13 @@ function dropDownHref(id) {
     }
 
     let option = event.target.value.toLowerCase();
-    document.location.href = "/" + option;
+    const pathArray = location.pathname.split('/', 3);
+    if (pathArray[1] === "cn"){
+      document.location.href = "/cn/" + option;
+    }
+    else{
+      document.location.href = "/" + option;
+    }
   });
 }
 
@@ -55,12 +61,10 @@ const footerFile = "footer.html";
 includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
-    /* Mobile menu */
-    dropDownHref('menuSelector');
+    const pathArray = location.pathname.split('/', 3);
 
     /* Language selection */
     let langDropdown = document.getElementById('languageSelector');
-    const pathArray = location.pathname.split('/', 3);
 
     langDropdown.addEventListener("change", (event) => {
       let lang = event.target.value.toLowerCase();
@@ -73,4 +77,7 @@ includeHTML('header', headerFile).then(() => {
         }
       }
   });
+  
+    /* Mobile menu */
+    dropDownHref('menuSelector'); 
 });
