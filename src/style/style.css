@@ -26,29 +26,27 @@
     font-size: 8px;
   }
 
-  .fix-font2{
-    font-family: 'lucida_brite';
-    font-size: 8px;
-  }
-
-  .fix-font h2{
+  .fix-size2{
     font-size: 12px;
   }
 
-  .fix-font h1{
+  .fix-size1{
     font-size: 20px;
   }
 
-  #heart-text {
+  .heart-text {
     font-family: "lucida_handwrite";
     margin: 0px;
     border-color: #fff;
     color: #fff;
-    font-size: 30px;
     text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
     text-align: center;
     font-style: italic;
     letter-spacing: 1px;
+  }
+
+  #hero {
+    font-size: 30px;
   }
 
   header > table > tbody > tr > td > h2{
@@ -70,29 +68,27 @@
     font-size: 16px;
   }
 
-  .fix-font2{
-    font-family: 'lucida_brite';
+  .fix-size2{
     font-size: 24px;
   }
 
-  .fix-font h2{
-    font-size: 24px;
-  }
-
-  .fix-font h1{
+  .fix-size1{
     font-size: 40px;
   }
   
-  #heart-text {
+  .heart-text {
     font-family: "lucida_handwrite";
     margin: 0px;
     border-color: #fff;
     color: #fff;
-    font-size: 84px;
     text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
     text-align: center;
     font-style: italic;
     letter-spacing: 5px;
+  }
+
+  #hero{
+    font-size: 84px;
   }
 
   header > table > tbody > tr > td > h2{
@@ -289,6 +285,10 @@ a {
   left:0;
   width:100%;
   height:100%;
+}
+
+.ulcenter{
+  padding-inline-start: 0px;
 }
 
 .lavande {
