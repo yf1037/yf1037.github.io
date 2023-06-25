@@ -34,6 +34,20 @@ function setLanguage(language) {
   document.location.href = url;
 }
 
+// menu dropdown
+function dropDownHref(id) {
+  let dropDown = document.getElementById(id);
+
+  dropDown.addEventListener("change", (event) => {
+    if(event.selectedIndex == 0){
+      return;
+    }
+
+    let option = event.target.value.toLowerCase();
+    document.location.href = "/" + option;
+  });
+}
+
 
 const headFile = "head.html";
 const headerFile = "header.html";
@@ -41,11 +55,15 @@ const footerFile = "footer.html";
 includeHTML('head'  , headFile);
 includeHTML('footer', footerFile);
 includeHTML('header', headerFile).then(() => {
+    /* Mobile menu */
+    dropDownHref('menuSelector');
+
+    /* Language selection */
     let langDropdown = document.getElementById('languageSelector');
     const pathArray = location.pathname.split('/', 3);
 
     langDropdown.addEventListener("change", (event) => {
-      let lang = event.target.value.toLowerCase()
+      let lang = event.target.value.toLowerCase();
       if (lang !== "sel") {
         if ((lang !== pathArray[1]) && (lang !== "en")) {
           setLanguage(lang)
