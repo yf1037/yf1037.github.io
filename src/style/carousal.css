@@ -114,17 +114,30 @@
     z-index:1
 }
 
+@media all and (max-width: 600px) {
+  .splide__pagination__page{
+    height:2px;
+    margin:2px;
+    width:8px
+  }
+}
+
+@media all and (min-width: 600px) {
+  .splide__pagination__page{
+    height:4px;
+    margin:3px;
+    width:30px
+  }
+}
+
 .splide__pagination__page{
     background:#e6e2da;
     border:0;
     border-radius:2.5px;
     display:inline-block;
-    height:5px;
-    margin:3px;
     padding:0;
     position:relative;
     transition:background-color .2s linear;
-    width:20px
 }
 
 .splide__pagination__page.is-active{
