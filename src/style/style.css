@@ -26,6 +26,14 @@
     font-size: 8px;
   }
 
+  .fix-font h2{
+    font-size: 12px;
+  }
+
+  .fix-font h1{
+    font-size: 20px;
+  }
+
   #heart-text {
     font-family: "lucida_handwrite";
     margin: 0px;
@@ -41,6 +49,10 @@
   header > table > tbody > tr > td > h2{
     text-align: center;
   }
+
+  .title{
+    font-size: 12px;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -51,6 +63,14 @@
   .fix-font{
     font-family: 'lucida_brite';
     font-size: 16px;
+  }
+
+  .fix-font h2{
+    font-size: 24px;
+  }
+
+  .fix-font h1{
+    font-size: 40px;
   }
   
   #heart-text {
@@ -67,6 +87,10 @@
 
   header > table > tbody > tr > td > h2{
     text-align: left;
+  }
+
+  .title{
+    font-size: 24px;
   }
 }
 
@@ -138,13 +162,8 @@ h2{
   color: black; 
 }
 
-h3{
-  font-size: 1.2em;
-}
-
 .title {
   color: #fff;
-  font-size: 1.2em;
   margin: 0px;
 }
 
