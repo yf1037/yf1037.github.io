@@ -26,6 +26,11 @@
     font-size: 8px;
   }
 
+  .fix-font2{
+    font-family: 'lucida_brite';
+    font-size: 8px;
+  }
+
   .fix-font h2{
     font-size: 12px;
   }
@@ -63,6 +68,11 @@
   .fix-font{
     font-family: 'lucida_brite';
     font-size: 16px;
+  }
+
+  .fix-font2{
+    font-family: 'lucida_brite';
+    font-size: 24px;
   }
 
   .fix-font h2{
