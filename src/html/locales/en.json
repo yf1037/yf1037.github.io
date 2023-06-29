@@ -15,7 +15,7 @@
   "Top": "Top",
   "More to come": "More to come...",
   "Under construction": "Under construction...",
-  "Direction": "Direction >",
+  "Direction": "Direction",
   "404": "404: Page not found",
   "Address": "",
   "location": "",
@@ -60,5 +60,8 @@
   "macys": "Macy's Herald Square",
   "poconno": "Pocono Premium Outlets",
   "Broadway": "Broadway Shows",
-  "MENU": "&#8801; MENU"
+  "MENU": "&#8801; MENU",
+  "drive": "Drive:",
+  "PT": "Public Transit:",
+  "PTD": "Take Morristown Line (MNE) or Montclair-Booton Line (BNTN) train from Hoboken to Mount Olive station. Walk for 10min on International Dr. Residence Inn will be on your right."
 }

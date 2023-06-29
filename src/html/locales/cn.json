@@ -15,7 +15,7 @@
   "Top": "顶部",
   "More to come": "更新中。。。",
   "Under construction": "建设中。。。",
-  "Direction": "出行指南 >",
+  "Direction": "出行指南",
   "404": "404: 找不到页面",
   "Address": "地址：",
   "location": "地点：",
@@ -60,5 +60,8 @@
   "macys": "先驱广场梅西百货",
   "poconno": "Pocono名牌折扣购物中心",
   "Broadway": "百老汇歌剧",
-  "MENU": "&#8801; 菜单"
+  "MENU": "&#8801; 菜单",
+  "drive": "驾车:",
+  "PT": "公共交通:",
+  "PTD": "从Hoboken乘坐火车Morristown Line (MNE)或者Montclair-Booton Line (BNTN)到Mount Olive站下车。沿International Dr.步行10分钟。Residence Inn在您的右侧。"
 }
