@@ -48,7 +48,7 @@
 
   #fullmap{
     width: 45vw;
-    min-width: 400px;
+    min-width: min(400px,100%);
   }
 }
 
@@ -115,7 +115,7 @@
   flex-grow: 1;
   margin: 0.5vw;
   max-width: 45vw;
-  min-width: 400px;
+  min-width: min(400px,100%);
 }
 
 iframe {
