@@ -24,7 +24,9 @@
   }
 }
 
-
+.flex > * {
+  max-width: 40em;
+}
 
 .handwrite {
   font-family: "lucida_handwrite";
