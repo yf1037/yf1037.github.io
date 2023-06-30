@@ -27,3 +27,7 @@
 .handwrite {
   font-family: "xingkai";
 }
+
+.flex > * {
+  max-width: 32em;
+}
