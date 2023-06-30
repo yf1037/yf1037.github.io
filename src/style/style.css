@@ -56,6 +56,10 @@
   .title{
     font-size: 12px;
   }
+
+  #fullmap{
+    max-width: 40em;
+  }
 }
 
 @media all and (min-width: 600px) {
@@ -97,6 +101,10 @@
 
   .title{
     font-size: 24px;
+  }
+
+  #fullmap{
+    max-width: 83em;
   }
 }
 
