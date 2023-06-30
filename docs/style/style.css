@@ -218,6 +218,12 @@ li {
   width: 100%;
 }
 
+.bottom{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
 .main-img { 
   width: 100%;
   height: auto;
