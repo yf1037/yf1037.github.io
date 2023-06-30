@@ -8,7 +8,7 @@
   src: url('../fonts/chinese.stxingka.ttf');
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
   body {
     font-family: "xinwei";
     text-align: center;
@@ -16,7 +16,7 @@
   }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1000px) {
   body {
     font-family: "xinwei";
     text-align: center;
@@ -26,8 +26,4 @@
 
 .handwrite {
   font-family: "xingkai";
-}
-
-.flex > * {
-  max-width: 32em;
 }

@@ -8,7 +8,7 @@
   src: url('../fonts/LHANDW.TTF');
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
   select {
     font-size: 100%;
   }
@@ -34,17 +34,6 @@
     font-size: 20px;
   }
 
-  .heart-text {
-    font-family: "lucida_handwrite";
-    margin: 0px;
-    border-color: #fff;
-    color: #fff;
-    text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
-    text-align: center;
-    font-style: italic;
-    letter-spacing: 1px;
-  }
-
   #hero {
     font-size: 30px;
   }
@@ -58,11 +47,12 @@
   }
 
   #fullmap{
-    max-width: 40em;
+    width: 45vw;
+    min-width: 400px;
   }
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 1000px) {
   .mobile {
     display: none;
   }
@@ -79,17 +69,6 @@
   .fix-size1{
     font-size: 40px;
   }
-  
-  .heart-text {
-    font-family: "lucida_handwrite";
-    margin: 0px;
-    border-color: #fff;
-    color: #fff;
-    text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
-    text-align: center;
-    font-style: italic;
-    letter-spacing: 5px;
-  }
 
   #hero{
     font-size: 84px;
@@ -104,14 +83,28 @@
   }
 
   #fullmap{
-    max-width: 83em;
+    margin-top: 0.5vw;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    width: 91vw;
   }
+}
+
+.heart-text {
+  font-family: "lucida_handwrite";
+  margin: 0px;
+  border-color: #fff;
+  color: #fff;
+  text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.25em;
 }
 
 .flex {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .reverse {
@@ -120,6 +113,9 @@
 
 .flex > * {
   flex-grow: 1;
+  margin: 0.5vw;
+  max-width: 45vw;
+  min-width: 400px;
 }
 
 iframe {
