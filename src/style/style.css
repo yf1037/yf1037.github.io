@@ -54,6 +54,10 @@
   h2{
     font-size: 1.25em;
   }
+
+  #footspace{
+    min-width: 1em;
+  }
 }
 
 @media all and (min-width: 1000px) {
@@ -95,6 +99,10 @@
 
   h1{
     font-size: 2.5em;
+  }
+
+  #footspace{
+    width: 10%;
   }
 }
 
