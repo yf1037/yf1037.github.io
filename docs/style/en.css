@@ -28,7 +28,7 @@
   font-family: "lucida_handwrite";
 }
 
-@media all and (max-width: 365px){
+@media all and (max-width: 375px){
   #pipe {
     display: none;
   }
