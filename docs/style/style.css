@@ -54,6 +54,10 @@
   h2{
     font-size: 1.25em;
   }
+
+  #footspace{
+    min-width: 1em;
+  }
 }
 
 @media all and (min-width: 1000px) {
@@ -96,6 +100,10 @@
   h1{
     font-size: 2.5em;
   }
+
+  #footspace{
+    width: 10%;
+  }
 }
 
 .heart-text {
@@ -120,6 +128,11 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+}
+
+.flex2 > li {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 .reverse {
@@ -309,6 +322,8 @@ a {
 
 .ulcenter{
   padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 #pipe {
