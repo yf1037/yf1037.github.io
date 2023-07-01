@@ -130,7 +130,7 @@
   flex-grow: 1;
   margin: 0.5vw;
   max-width: 45vw;
-  min-width: min(400px,100%);
+  min-width: min(410px,100%);
 }
 
 iframe {
