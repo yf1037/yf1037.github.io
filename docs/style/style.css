@@ -130,6 +130,11 @@
   justify-content: center;
 }
 
+.flex2 > li {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
 .reverse {
   flex-flow: row-reverse wrap;
 }
@@ -317,6 +322,8 @@ a {
 
 .ulcenter{
   padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 #pipe {
