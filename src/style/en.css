@@ -12,7 +12,7 @@
   body {
     font-family: "lucida_brite";
     text-align: center;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 
@@ -26,4 +26,15 @@
 
 .handwrite {
   font-family: "lucida_handwrite";
+}
+
+@media all and (max-width: 362px){
+  #pipe {
+    display: none;
+  }
+
+  .flex2 > * {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
