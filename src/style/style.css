@@ -23,15 +23,15 @@
 
   .fix-font{
     font-family: 'lucida_brite';
-    font-size: 8px;
-  }
-
-  .fix-size2{
     font-size: 12px;
   }
 
+  .fix-size2{
+    font-size: 15px;
+  }
+
   .fix-size1{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #hero {
@@ -49,6 +49,10 @@
   #fullmap{
     width: 45vw;
     min-width: min(400px,100%);
+  }
+
+  h2{
+    font-size: 1.25em;
   }
 }
 
@@ -88,6 +92,10 @@
     margin-right: 4.5vw;
     width: 91vw;
   }
+
+  h1{
+    font-size: 2.5em;
+  }
 }
 
 .heart-text {
@@ -104,6 +112,13 @@
 .flex {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+}
+
+.flex2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   justify-content: center;
 }
 
@@ -162,10 +177,6 @@ table {
   border-collapse: collapse;
 }
 
-h1{
-  font-size: 2.5em;
-}
-
 h2{
   text-align: center; 
   color: black; 
@@ -215,6 +226,12 @@ li {
 .top{
   position: absolute;
   top: 20%;
+  width: 100%;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0%;
   width: 100%;
 }
 
@@ -294,6 +311,10 @@ a {
   padding-inline-start: 0px;
 }
 
+#pipe {
+  margin-left: 1em;
+  margin-right: 1em;
+}
 .lavande {
   position: absolute;
   bottom: 0;
