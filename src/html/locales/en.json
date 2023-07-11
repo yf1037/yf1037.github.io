@@ -64,6 +64,6 @@
   "drive": "Drive:",
   "PT": "Public Transit:",
   "PTD": "Take Morristown Line (MNE) or Montclair-Booton Line (BNTN) train from Hoboken to Mount Olive station. Walk for 10min on International Dr. Residence Inn will be on your right.",
-  "reserve": "Please make your reservation by June 7 to recieve the group rate",
+  "reserve": "Please make your reservation by <span class='Underline'>June 8</span> to recieve the group rate",
   "transport": "Transportation will be provided to and from the reception"
 }
