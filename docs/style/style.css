@@ -146,6 +146,19 @@
   min-width: min(400px,100%);
 }
 
+.flex > #image-carousel{
+  padding: 0px;
+  display: grid;
+}
+
+#image-carousel > div > ul > li > img {
+  object-fit: cover;
+}
+
+#main-carousel {
+  padding: 0px;
+}
+
 iframe {
   width: 100%;
   min-height: 20em;
@@ -271,8 +284,8 @@ a {
 
 .smalldecor {
   position: relative;
-  width: 30%;
-  height: auto;
+  width: auto;
+  height: 5em;
   max-height: 200px;
   max-width: 300px;
   margin-top: 0px;
@@ -330,6 +343,7 @@ a {
   margin-left: 1em;
   margin-right: 1em;
 }
+
 
 .lavande {
   position: absolute;

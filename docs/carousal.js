@@ -6,12 +6,12 @@ function createCarouselHTML(tagName, name, images) {
   }
 
   let innerHTML = "";
-  innerHTML += '<section id="main-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
+  innerHTML += '<section id="main-' + name + '" class="splide" style="padding: 0px;"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
     innerHTML += '<li class="splide__slide"><img data-splide-lazy="/media/' + images[idx] + '" alt=""></li>';
   }
   innerHTML += '</ul></div></section>';
-  innerHTML += '<section id="thumbnail-' + name + '" class="splide"><div class="splide__track"><ul class="splide__list">';
+  innerHTML += '<section id="thumbnail-' + name + '" class="splide" style="padding: 1em; margin-bottom: 1em;"><div class="splide__track"><ul class="splide__list">';
   for( let idx = 0; idx < images.length; idx = idx + 1) {
     innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx].replace('.mp4','.jpg') + '" alt=""></li>';
   }
@@ -23,7 +23,7 @@ function createCarouselHTML(tagName, name, images) {
 function createCarouselJS(name) {
   var main = new Splide( '#main-' + name, {
     Width: '100%',
-    height: "30vw",
+    height: "min(75vh,75vw)",
     type      : 'fade',
     rewind    : true,
     pagination: true,
