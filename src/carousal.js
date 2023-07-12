@@ -183,7 +183,7 @@ var imageList = [
     'CO/WeChat Image_20230602094526.jpg',
     'CO/WeChat Image_20230602100043.jpg',
     'CO/WeChat Image_20230602100055.jpg',
-    'CO/WeChat_20230602094358.mp4',
+    //'CO/WeChat_20230602094358.mp4',
     'CO/WeChat Image_20230602094445.jpg'
   ],
   [
