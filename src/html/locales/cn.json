@@ -11,7 +11,7 @@
   "Our Wedding": "婚礼",
   "Date+": "时间：2024年07月20日，星期六",
   "Date": "时间：2024年07月20日",
-  "More info": "更多 >",
+  "More info": "更多 <b>></b>",
   "Top": "顶部",
   "More to come": "更新中。。。",
   "Under construction": "建设中。。。",
@@ -24,7 +24,7 @@
   "events": "我们一起参加过的活动",
   "over_the_years": "我们在一起的这些年",
   "Congrats": "在这个白板上写下你的祝福吧~",
-  "muralinv": "白板邀请链接 >",
+  "muralinv": "白板邀请链接 <b>></b>",
   "cats": "猫咪",
   "places": "我们一起去过的地方",
   "WA": "华盛顿州，2023",
@@ -35,8 +35,8 @@
   "ourhome": "我们的家",
   "pre-pandemic": "疫情之前",
   "quarentine": "疫情期间",
-  "more": "更多 >",
-  "join discussion": "送上你的祝福 >",
+  "more": "更多 <b>></b>",
+  "join discussion": "送上你的祝福 <b>></b>",
   "Delaware": "特拉华水峡",
   "libertystatepark": "自由州公园",
   "libertysciencecenter": "自由科学中心",
@@ -65,5 +65,6 @@
   "PT": "公共交通:",
   "PTD": "从Hoboken乘坐火车Morristown Line (MNE)或者Montclair-Booton Line (BNTN)到Mount Olive站下车。沿International Dr.步行10分钟。Residence Inn在您的右侧。",
   "reserve": "<p>为了方便您的出行，我们预留了一组酒店套房</p><p>团队价将保留至<span class='Underline'>6月8日</span>，请提前预定</p>",
-  "transport": "我们将提供从酒店往返婚礼的交通服务"
+  "transport": "我们将提供从酒店往返婚礼的交通服务",
+  "summer": "夏天=沙滩"
 }

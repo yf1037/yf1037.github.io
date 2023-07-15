@@ -11,7 +11,7 @@
   "Our Wedding":"Our Wedding",
   "Date+":"Saturday, 07/20/2024",
   "Date":"07/20/2024",
-  "More info": "More info >",
+  "More info": "More info <span style='font-size:1.1em;'>></span>",
   "Top": "Top",
   "More to come": "More to come...",
   "Under construction": "Under construction...",
@@ -24,7 +24,7 @@
   "events": "The events we have been to",
   "over_the_years": "Shawn & Yi over the years",
   "Congrats": "Congrats Shawn and Yi on Kudoboard!",
-  "muralinv": "Kudoboard invitation >",
+  "muralinv": "Kudoboard invitation <span style='font-size:1.1em;'>></span>",
   "cats": "Our cats",
   "places": "The places we visited",
   "WA": "Washington, 2023",
@@ -35,7 +35,7 @@
   "ourhome": "Our home",
   "pre-pandemic": "Pre-pandemic",
   "quarentine": "Quarantine",
-  "more": "More >",
+  "more": "More <span style='font-size:1.1em;'>></span>",
   "join discussion": "Say congrats >",
   "Delaware": "Delaware Water Gap",
   "libertystatepark": "Liberty State Park",
@@ -65,5 +65,6 @@
   "PT": "Public Transit:",
   "PTD": "Take Morristown Line (MNE) or Montclair-Booton Line (BNTN) train from Hoboken to Mount Olive station. Walk for 10min on International Dr. Residence Inn will be on your right.",
   "reserve": "Please make your reservation by <span class='Underline'>June 8</span> to recieve the group rate",
-  "transport": "Transportation will be provided to and from the reception"
+  "transport": "Transportation will be provided to and from the reception",
+  "summer": "Summer = Beach"
 }
