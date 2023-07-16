@@ -55,7 +55,6 @@
   transform-origin: 50% 100%;
   bottom: 0;
   z-index: 5;
-  height: 80vh;
 }
 
 .pagecenter {
@@ -83,4 +82,8 @@
   padding-top: 0em;
   padding-bottom: 0em;
   text-align: center;
+}
+
+.r1Anim {
+  transform: rotate(20deg);
 }
