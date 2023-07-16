@@ -10,7 +10,7 @@ async function includeHTML(element, file) {
     throw new Error();
   })
   .then((resp) => {
-    header.innerHTML = resp;
+    header.innerHTML = resp + header.innerHTML;
   }).catch(() => {
     console.error('Could not load file: ' + file);
   });
@@ -70,27 +70,14 @@ includeHTML('header', headerFile).then(() => {
       let lang = event.target.value.toLowerCase();
       if (lang !== "sel") {
         if ((lang !== pathArray[1]) && (lang !== "en")) {
-          setLanguage(lang)
+          setLanguage(lang);
         }
         if ((lang === "en") && !(pathArray[1].includes(".html")) && pathArray[1]) {
-          setLanguage(lang)
+          setLanguage(lang);
         }
       }
   });
   
     /* Mobile menu */
     dropDownHref('menuSelector'); 
-});
-
-$(document).on("scroll", function() {
-  var pageTop = $(document).scrollTop();
-  var pageBottom = pageTop + $(window).height();
-  var tags = $(".tag");
-
-  for (var i = 0; i < tags.length; i++) {
-    var tag = tags[i];
-    if ($(tag).position().top < pageBottom) {
-      $(tag).addClass("visible");
-    } 
-  }
 });
