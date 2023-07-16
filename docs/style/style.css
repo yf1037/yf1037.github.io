@@ -343,3 +343,76 @@ a {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+
+.lavande {
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+}
+
+.r1:hover{
+  transform:rotate(20deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.r2:hover{
+  transform:rotate(15deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.r3:hover{
+  transform:rotate(10deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.l1:hover{
+  transform:rotate(-20deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.l2:hover{
+  transform:rotate(-15deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.l3:hover{
+  transform:rotate(-10deg); 
+  transform-origin: 50% 100%;
+  transition: all 1s;
+}
+
+.pagecenter {
+  height: 400px;
+  width: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+}
+
+.fade-in {
+  opacity: 0%;
+}
+
+.fade-in:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.fadeIn {
+  opacity: 0;  
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}

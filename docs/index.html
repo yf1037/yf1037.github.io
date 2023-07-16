@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
-<head></head>
+<head>
+  <script type="text/javascript" src="scrollFade.js"></script>
+</head>
 <body>
   <header style="position: fixed; background-color: transparent;"></header>
   <section id="top-content">
@@ -12,27 +14,29 @@
     </div>
   </section>
   <section id="venue-info">
-    <div class="container">
+    <div class="container fadeIn">
       <img class="decor" src="/media/flower-4.png" alt="Flower image" width="1000" height="300">
       <div class="under">
         <h1>Our Wedding</h1>
       </div>
     </div>
     <div style="margin-top: 5px;">
-      <h2 class="flex2">
+      <h2 class="flex2 fadeIn">
         <span>Saturday, 07/20/2024</span>
         <span id="pipe"> | </span>
         <span><span></span><span class="fix-font fix-size2">Bello Giorno Estate</span></span>
       </h2>
+    </div>
+    <div class="fadeIn">
       <p></p>
-      <span class="fix-font">
+      <div class="fix-font">
         <p>517 US-46</p> 
         <p>Belvidere, NJ 07823</p>
-      </span>
+      </div>
       <a href="venue.html" style="color: #000;">More info <span style='font-size:1.1em;'>></span></a>
     </div>
   </section>
-  <section id="Accommodation">
+  <section class="fadeIn" id="Accommodation">
     <div>
       <h1>Accomodation</h1>
     </div>
@@ -47,15 +51,15 @@
     </div>
   </section>
   <section id="congrats">
-    <a href="congrats.html"><h1 style="color: #000;">Say congrats ></h1></a>
-    <img class="decor" src="/media/flower-2.png" alt="Flower image" width="1000" height="300">
+    <a class="fadeIn" href="congrats.html"><h1 style="color: #000;">Say congrats ></h1></a>
+    <img class="decor fadeIn" src="/media/flower-2.png" alt="Flower image" width="1000" height="300">
   </section>
-  <section id="gallery">
+  <section id="gallery" class="fadeIn">
     <h1 style="margin-bottom: 0px;">Gallery</h1>
     <p style="text-align: right; margin: 0px;"><a href="gallery.html" style="color: #000; margin: 0px;">More <span style='font-size:1.1em;'>></span></a></p>
     <a href="gallery.html"><img class="main-img" src="/media/preview.jpg" alt="Gallery preview" width="1000" height="300"></a> 
   </section>
-  <section id="registry">
+  <section id="registry" class="fadeIn">
     <h1 class="handwrite">More to come...</h1>
   </section>
   <footer></footer>
