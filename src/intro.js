@@ -22,7 +22,7 @@ function onHover(title, lavande, posX) {
     let maxRot = ROTATION_MAX[idx];
     const sign = Math.abs(maxRot) / maxRot;
     const rot  = Math.abs(maxRot);
-    maxRot = Math.min(rot, window.innerWidth*rot/500*0.8) * sign;
+    maxRot = Math.min(rot, window.innerWidth*rot/500*0.6) * sign;
     const rotate = percent * maxRot;
 
     let child = childList[idx];
