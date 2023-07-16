@@ -398,4 +398,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', createCarousels(16) );
+window.addEventListener( 'load', () => createCarousels(16) );

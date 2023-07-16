@@ -339,13 +339,11 @@ function createCarouselHTML(tagName, name, images) {
 let hasMounted = {};
 function createCarouselJS(name) {
   const VIEW_PORT_OFFSET = 500;
-  const pageTop = document.documentElement.clientHeight - VIEW_PORT_OFFSET;
   const pageBottom       = (window.innerHeight || document.documentElement.clientHeight) + VIEW_PORT_OFFSET;
   let element = document.getElementById('main-' + name);
   const elementTop = element.getBoundingClientRect().top;
-  const elementBottom = element.getBoundingClientRect().bottom;
 
-  if( !hasMounted[name] && elementTop < pageBottom && elementBottom > pageTop) {
+  if( !hasMounted[name] && elementTop < pageBottom ) {
     var main = new Splide( '#main-' + name, {
       Width: '100%',
       height: "min(75vh,75vw)",
@@ -400,4 +398,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', createCarousels(16) );
+window.addEventListener( 'load', () => createCarousels(16) );
