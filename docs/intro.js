@@ -4,7 +4,7 @@ const ROTATION_MAX = [
   -10, 
   10, 
   15, 
-  30
+  25
 ];
 
 function onHover(title, lavande, posX) {
@@ -19,7 +19,10 @@ function onHover(title, lavande, posX) {
   title.style.opacity   = percent;
 
   for(let idx = 0; idx < numChild; ++idx) {
-    const maxRot = ROTATION_MAX[idx];
+    let maxRot = ROTATION_MAX[idx];
+    const sign = Math.abs(maxRot) / maxRot;
+    const rot  = Math.abs(maxRot);
+    maxRot = Math.min(rot, window.innerWidth*rot/500*0.8) * sign;
     const rotate = percent * maxRot;
 
     let child = childList[idx];
