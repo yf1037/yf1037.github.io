@@ -45,7 +45,7 @@ window.addEventListener('load', () => {
 
   let title   = document.getElementById('title');
   let lavande = document.getElementById('lavande');
-  document.addEventListener('mousemove',  (event) => onHover(title, lavande, event.clientX));
+  document.addEventListener('mousemove',  (event) => !hasTouched ? onHover(title, lavande, event.clientX) : null);
   document.addEventListener('touchstart', (event) => {
     if(!hasTouched) {
       hasTouched = true;
