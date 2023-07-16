@@ -390,12 +390,46 @@ function createCarousels(num) {
     createCarouselHTML(tagName, name, imageList[idx]);
   }
 
+  // alway load the 1st carousel
+  var main = new Splide( '#main-carousel0', {
+    Width: '100%',
+    height: "min(75vh,75vw)",
+    type      : 'fade',
+    rewind    : true,
+    pagination: true,
+    arrows    : true,
+    lazyLoad: 'nearby'
+  } );
+
+  var thumbnails = new Splide( '#thumbnail-carousel0', {
+    fixedWidth  : 125,
+    fixedHeight : 80,
+    gap         : 10,
+    rewind      : true,
+    pagination  : false,
+    isNavigation: true,
+    arrows    : false,
+    lazyLoad: 'sequential',
+    focus      : 'center',
+    breakpoints : {
+      600: {
+        fixedWidth : 60,
+        fixedHeight: 44,
+      }
+    }
+  } );
+
+  main.sync( thumbnails );
+  main.mount();
+  thumbnails.mount();
+  hasMounted['carousel0'] = true;
+
   // scroll load
-  for(var idx = 0; idx < num; idx = idx + 1) {
+  for(var idx = 1; idx < num; idx = idx + 1) {
     let name = 'carousel' + idx;
     createCarouselJS(name);
     createCarouselOnScroll(name);
   }
 }
 
-window.addEventListener( 'load', () => createCarousels(16) );
+document.addEventListener( 'DOMContentLoaded', () => createCarousels(16) );

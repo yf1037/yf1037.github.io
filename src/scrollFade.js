@@ -1,6 +1,5 @@
-
-document.addEventListener("scroll", () => {
-  const VIEW_PORT_OFFSET = 0;
+function fadeIn(){
+  const VIEW_PORT_OFFSET = -50;
   const pageBottom       = (window.innerHeight || document.documentElement.clientHeight) + VIEW_PORT_OFFSET;
 
   let toFadeList = document.getElementsByClassName('fadeIn');
@@ -12,4 +11,7 @@ document.addEventListener("scroll", () => {
       element.classList.add('visible');
     }
   }
-});
+}
+
+document.addEventListener("scroll", () => fadeIn());
+document.addEventListener('DOMContentLoaded', () => fadeIn());
