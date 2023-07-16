@@ -1,59 +1,3 @@
-function createCarouselHTML(tagName, name, images) {
-  let section = document.getElementById(tagName);
-  if( !section ) {
-    console.error('tag ' + tagName + " not found for createCarouselHTML");
-    return;
-  }
-
-  let innerHTML = "";
-  innerHTML += '<section id="main-' + name + '" class="splide" style="padding: 0px;"><div class="splide__track"><ul class="splide__list">';
-  for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img data-splide-lazy="/media/' + images[idx] + '" alt=""></li>';
-  }
-  innerHTML += '</ul></div></section>';
-  innerHTML += '<section id="thumbnail-' + name + '" class="splide" style="padding: 1em; margin-bottom: 1em;"><div class="splide__track"><ul class="splide__list">';
-  for( let idx = 0; idx < images.length; idx = idx + 1) {
-    innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx].replace('.mp4','.jpg') + '" alt=""></li>';
-  }
-  innerHTML += '</ul></div></section>';
-
-  section.innerHTML += innerHTML;
-}
-
-function createCarouselJS(name) {
-  var main = new Splide( '#main-' + name, {
-    Width: '100%',
-    height: "min(75vh,75vw)",
-    type      : 'fade',
-    rewind    : true,
-    pagination: true,
-    arrows    : true,
-    lazyLoad: 'nearby'
-  } );
-
-  var thumbnails = new Splide( '#thumbnail-' + name, {
-    fixedWidth  : 125,
-    fixedHeight : 80,
-    gap         : 10,
-    rewind      : true,
-    pagination  : false,
-    isNavigation: true,
-    arrows    : false,
-    lazyLoad: 'sequential',
-    focus      : 'center',
-    breakpoints : {
-      600: {
-        fixedWidth : 60,
-        fixedHeight: 44,
-      }
-    }
-  } );
-
-  main.sync( thumbnails );
-  main.mount();
-  thumbnails.mount();
-};
-
 var imageList = [
   [
     'st_patricks_day/Proof 038.jpg',
@@ -370,12 +314,87 @@ var imageList = [
   ]
 ];
 
+function createCarouselHTML(tagName, name, images) {
+  let section = document.getElementById(tagName);
+  if( !section ) {
+    console.error('tag ' + tagName + " not found for createCarouselHTML");
+    return;
+  }
+
+  let innerHTML = "";
+  innerHTML += '<section id="main-' + name + '" class="splide" style="padding: 0px;"><div class="splide__track"><ul class="splide__list">';
+  for( let idx = 0; idx < images.length; idx = idx + 1) {
+    innerHTML += '<li class="splide__slide"><img data-splide-lazy="/media/' + images[idx] + '" alt=""></li>';
+  }
+  innerHTML += '</ul></div></section>';
+  innerHTML += '<section id="thumbnail-' + name + '" class="splide" style="padding: 1em; margin-bottom: 1em;"><div class="splide__track"><ul class="splide__list">';
+  for( let idx = 0; idx < images.length; idx = idx + 1) {
+    innerHTML += '<li class="splide__slide"><img src="/media/thumbnail/' + images[idx].replace('.mp4','.jpg') + '" alt=""></li>';
+  }
+  innerHTML += '</ul></div></section>';
+
+  section.innerHTML += innerHTML;
+}
+
+let hasMounted = {};
+function createCarouselJS(name) {
+  const VIEW_PORT_OFFSET = 500;
+  const pageBottom       = (window.innerHeight || document.documentElement.clientHeight) + VIEW_PORT_OFFSET;
+  let element = document.getElementById('main-' + name);
+  const elementTop = element.getBoundingClientRect().top;
+
+  if( !hasMounted[name] && elementTop < pageBottom ) {
+    var main = new Splide( '#main-' + name, {
+      Width: '100%',
+      height: "min(75vh,75vw)",
+      type      : 'fade',
+      rewind    : true,
+      pagination: true,
+      arrows    : true,
+      lazyLoad: 'nearby'
+    } );
+  
+    var thumbnails = new Splide( '#thumbnail-' + name, {
+      fixedWidth  : 125,
+      fixedHeight : 80,
+      gap         : 10,
+      rewind      : true,
+      pagination  : false,
+      isNavigation: true,
+      arrows    : false,
+      lazyLoad: 'sequential',
+      focus      : 'center',
+      breakpoints : {
+        600: {
+          fixedWidth : 60,
+          fixedHeight: 44,
+        }
+      }
+    } );
+  
+    main.sync( thumbnails );
+    main.mount();
+    thumbnails.mount();
+    hasMounted[name] = true;
+  }
+}
+
+function createCarouselOnScroll(name) {
+  document.addEventListener("scroll", () => createCarouselJS(name) );
+};
+
 function createCarousels(num) {
   for(var idx = 0; idx < num; idx = idx + 1) {
     let name = 'carousel' + idx;
     let tagName = 'car' + idx;
     createCarouselHTML(tagName, name, imageList[idx]);
+  }
+
+  // scroll load
+  for(var idx = 0; idx < num; idx = idx + 1) {
+    let name = 'carousel' + idx;
     createCarouselJS(name);
+    createCarouselOnScroll(name);
   }
 }
 
