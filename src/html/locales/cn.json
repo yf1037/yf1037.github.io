@@ -1,6 +1,7 @@
 {
   "LANGUAGE": "cn",
   "langcss": "style/cn.css",
+  "enter": "进入网页",
   "VENUE_INFO": "地点",
   "ACCOMMODATION-C":"住宿",
   "ACCOMMODATION": "住宿",

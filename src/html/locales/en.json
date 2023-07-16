@@ -1,6 +1,7 @@
 {
   "LANGUAGE": "en-us",
   "langcss": "style/en.css",
+  "enter": "Enter",
   "VENUE_INFO": "VENUE",
   "ACCOMMODATION-C":"ACCOMMODATION",
   "ACCOMMODATION":"Accomodation",
