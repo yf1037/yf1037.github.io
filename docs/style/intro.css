@@ -1,3 +1,55 @@
+@media all and (max-width: 800px) {
+  #l1 {
+    left: 30%;
+  }
+
+  #l2 {
+    left: 15%;
+  }
+
+  #l3 {
+    left: 2%;
+  }
+
+  #r1 {
+    right: 2%;
+  }
+
+  #r2 {
+    right: 15%;
+  }
+
+  #r3 {
+    right: 30%;
+  }
+}
+
+@media all and (min-width: 800px) {
+  #l1 {
+    left: 40%;
+  }
+
+  #l2 {
+    left: 32%;
+  }
+
+  #l3 {
+    left: 24%;
+  }
+
+  #r1 {
+    right: 24%;
+  }
+
+  #r2 {
+    right: 32%;
+  }
+
+  #r3 {
+    right: 40%;
+  }
+}
+
 #lavande > * {
   position: absolute;
   transform-origin: 50% 100%;
@@ -13,6 +65,7 @@
   left: 50%;
   margin-top: -200px;
   margin-left: -200px;
+  opacity: 0;
 }
 
 #enter {
@@ -29,4 +82,8 @@
   padding-top: 0em;
   padding-bottom: 0em;
   text-align: center;
+}
+
+.r1Anim {
+  transform: rotate(20deg);
 }

@@ -27,8 +27,29 @@ function onHover(title, lavande, posX) {
   }
 }
 
+function onTouch(title, lavande) {
+  const DELAY = 1
+  let posX = 0;
+
+  let timer = setInterval(() => {
+    if(posX >= window.innerWidth / 2) {
+      clearInterval(timer);
+    }
+    posX += window.innerWidth / 100;
+    onHover(title, lavande, posX);
+  }, DELAY);
+}
+
 window.addEventListener('load', () => {
+  let hasTouched = false;
+
   let title   = document.getElementById('title');
   let lavande = document.getElementById('lavande');
-  document.addEventListener('mousemove', (event) => onHover(title, lavande, event.clientX));
+  document.addEventListener('mousemove',  (event) => onHover(title, lavande, event.clientX));
+  document.addEventListener('touchstart', (event) => {
+    if(!hasTouched) {
+      hasTouched = true;
+      onTouch(title, lavande);
+    }
+  });
 });
