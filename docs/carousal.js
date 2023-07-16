@@ -299,7 +299,9 @@ var imageList = [
     'summer/IMG_7365.jpg',
     'summer/IMG_0382.jpg',
     'summer/IMG_0416.jpg',
-    'summer/EDTV5112.jpg'
+    'summer/EDTV5112.jpg',
+    'summer/WeChat Image_20230716115759.jpg',
+    'summer/WeChat Image_20230716115739.jpg'
   ],
   [
     '2023/IMG_9620.jpg',
@@ -308,9 +310,12 @@ var imageList = [
     '2023/WeChat Image_20230531220307.jpg',
     '2023/IMG_0294.jpg',
     '2023/image1.jpg',
-    '2023/image0.jpg',
+    '2023/WeChat Image_20230716115817.jpg',
+    '2023/WeChat Image_20230716115806.jpg',
     '2023/IMG_0303.jpg',
-    '2023/IMG_0462.jpg'
+    '2023/image0.jpg',
+    '2023/IMG_0462.jpg',
+    '2023/WeChat Image_20230716115708.jpg'
   ]
 ];
 
