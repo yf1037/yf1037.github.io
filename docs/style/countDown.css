@@ -2,6 +2,12 @@
   font-weight: bold;
   justify-content: center;
   text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+  border-width: 1px;
+  border-top-color: white;
+  border-bottom-color: white;
+  border-style: solid;
+  border-left: transparent;
+  border-right: transparent;
 }
 
 .countDown > * {
@@ -15,16 +21,23 @@
   /* background-color: rgba(255, 255, 255, 0.7); */
 }
 
+.countDown > * > * {
+  
+  color: #fff;
+}
+
 @media all and (max-width: 600px) {
   .countDown {
-    margin: 0px;
-    border: 0px;
+    margin: 5%;
+    border: 5%;
     margin-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0px;
   }
 
-  .countDown > * > h2 {
+  .countDown > * > * {
     margin: 0px;
-    color: #fff;
   }
 }
 
@@ -32,11 +45,6 @@
   .countDown {
     margin-left: 30%;
     margin-right: 30%;
-    border-width: 1px;
-    border-top-color: white;
-    border-bottom-color: white;
-    border-style: solid;
-    border-left: transparent;
-    border-right: transparent;
+    margin-bottom: 1em;
   }
 }
