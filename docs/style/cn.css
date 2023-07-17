@@ -43,3 +43,7 @@
   padding-right: 0.1em; 
   /* use different padding to offset difference in font */
 }
+
+#countdowntext {
+  font-family: "xingkai";
+}
