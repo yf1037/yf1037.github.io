@@ -1,3 +1,20 @@
+// redirect user to CN version of site
+let hrefParts = document.location.href.split('/');
+if(hrefParts.length !== 0 && hrefParts[1] !== 'index.html') {
+
+  let userlang = navigator.language || navigator.languages[0];
+  if(userlang) {
+
+    let language = userlang.split('-', 2)[0].toLowerCase();
+    
+    if( language === 'cn') {
+      document.location.href = hrefParts[1] + language;
+    }
+  }
+}
+
+
+
 const ROTATION_MAX = [
   -20, 
   -15, 
@@ -13,7 +30,6 @@ function onHover(title, lavande, posX) {
 
   const windowWidth = window.innerWidth / 2;
   const percent = 1 - Math.abs(posX / windowWidth - 1);
-  console.log(percent);
 
   title.style.transform = 'translateY(' + -100*percent + 'px)'
   title.style.opacity   = percent;

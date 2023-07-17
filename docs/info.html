@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
 <head>
-  <link href="style/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/countDown.css">
   <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="countDown.js"></script>
   <script type="text/javascript" src="scrollFade.js"></script>
 </head>
 <body>
@@ -10,8 +12,27 @@
   <section id="top-content">
     <div class="container" style="z-index: 9;">
       <img class="main-img" src="/media/Proof-034-crop.jpg" alt="Happy picture of Shawn and Yi" width="1000" height="300">
-      <div class="center">
-        <h1 class="heart-text fade-in-load" id="hero">Shawn <span class="heart">&hearts;</span> Yi</h1>
+      <div class="center fade-in-load">
+        <h1 class="heart-text " id="hero">Shawn <span class="heart">&hearts;</span> Yi</h1>
+        <ul class="countDown ulcenter flex">
+          <li class="countDown-days">
+            <h2 class="number">00
+            <h2 class="label">Days
+          </h2></h2></li>
+          <li class="countDown-hours">
+            <h2 class="number">00
+            <h2 class="label">Hours
+          </h2></h2></li>
+          <li class="countDown-minutes">
+            <h2 class="number">00
+            <h2 class="label">Minutes
+          </h2></h2></li>
+          <!-- <li class="countDown-seconds">
+            <h3 class="number">00</h3>
+            <h3 class="label">Seconds</h3>
+          </li> -->
+        </ul>
+        <h2 class="heart-text" style="color: white;">~~~The Countdown Is On~~~</h2>
       </div>
     </div>
   </section>
@@ -38,6 +59,7 @@
       <a href="venue.html" style="color: #000;">More info <span style='font-size:1.1em;'>></span></a>
     </div>
   </section>
+
   <section class="fadeIn" id="Accommodation">
     <div>
       <h1>Accomodation</h1>

@@ -1,0 +1,42 @@
+.countDown {
+  font-weight: bold;
+  justify-content: center;
+  text-shadow: 1px 1px 35px #000, 1px 1px 6px #000;
+}
+
+.countDown > * {
+  justify-content: center;
+  margin: 0 -3px 0 0;
+  padding: 0;
+  width: 25%;
+  text-align: center;
+  min-width: 6em;
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+@media all and (max-width: 600px) {
+  .countDown {
+    margin: 0px;
+    border: 0px;
+    margin-bottom: 0.5em;
+  }
+
+  .countDown > * > h2 {
+    margin: 0px;
+    color: #fff;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .countDown {
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: 1px;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+  }
+}
