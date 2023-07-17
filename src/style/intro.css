@@ -50,6 +50,10 @@
   }
 }
 
+#l2, #r2, #r3 {
+  transform: scaleX(-1);
+}
+
 #lavande > * {
   position: absolute;
   transform-origin: 50% 100%;

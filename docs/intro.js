@@ -59,7 +59,7 @@ function onTouch(title, lavande) {
   }, DELAY);
 }
 
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
   let hasTouched = false;
 
   let title   = document.getElementById('title');
