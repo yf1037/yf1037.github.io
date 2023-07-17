@@ -79,8 +79,57 @@
   border-style: solid;
   font-size: 2em;
   padding-left: 0.5em;
-  padding-right: 0.5em;
   padding-top: 0em;
   padding-bottom: 0em;
-  text-align: center;
+  text-align: left;
+}
+
+#grass{
+  position: absolute;
+  z-index: 10; 
+  bottom: 0;
+  background-image: url('/media/grass.png');
+  height: 20vh;
+  width: 100%;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.star > * {
+  transform-origin: 50% 50%;
+  animation: rotate 5s linear infinite;
+}
+
+.star{
+  transform-origin: 50% 50%;
+  animation: scale 2s linear infinite;
+  object-fit: contain;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0.25);
+  }
+
+  50% {
+    transform: scale(0.35);
+  }
+
+  to {
+    transform: scale(0.25);
+  }
+}
+
+body {
+  margin: 0px;
 }
