@@ -38,3 +38,8 @@
     margin-right: 1em;
   }
 }
+
+#enter {
+  padding-right: 1em;
+  /* use different padding to offset difference in font */
+}
