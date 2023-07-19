@@ -71,5 +71,20 @@
   "day": "天",
   "hour": "小时",
   "min": "分钟",
-  "countdown": "~~~倒计时已经开始了~~~"
+  "countdown": "~~~倒计时已经开始了~~~",
+  "215": "14&colon;15-15&colon;30",
+  "pic": "亲属合影",
+  "330": "15&colon;30-16&colon;00",
+  "arrive": "宾客到场",
+  "4p": "16&colon;00-16&colon;30",
+  "ceremony": "婚礼",
+  "430": "16&colon;30-21&colon;30",
+  "reception": "酒席",
+  "130": "13&colon;30-14&colon;15",
+  "familyshuttle": "亲属从宾馆乘坐大巴",
+  "245": "14&colon;45-15&colon;30",
+  "guestshuttle": "宾客从宾馆乘坐大巴",
+  "930": "21&colon;30-22&colon;15",
+  "return": "乘大巴回到酒店",
+  "schedule": "时间安排"
 }
