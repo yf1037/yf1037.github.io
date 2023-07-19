@@ -71,5 +71,20 @@
   "day": "Days",
   "hour": "Hours",
   "min": "Minutes",
-  "countdown": "~~~The Countdown Is On~~~"
+  "countdown": "~~~The Countdown Is On~~~",
+  "215": "2:15-3:30pm",
+  "pic": "Family pictures",
+  "330": "3:30-4:00pm",
+  "arrive": "Guest arrival",
+  "4p": "4:00-4:30pm",
+  "ceremony": "Ceremony",
+  "430": "4:30-9:30pm",
+  "reception": "Receiption",
+  "130": "1:30-2:15pm",
+  "familyshuttle": "Shuttle pick up family at the hotel",
+  "245": "2:45-3:30pm",
+  "guestshuttle": "Shuttle pick up guests at the hotel",
+  "930": "9:30-10:15pm",
+  "return": "Shuttle return to hotel",
+  "schedule": "Schedule"
 }
