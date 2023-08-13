@@ -48,7 +48,7 @@ function onHover(title, lavande, posX) {
 
 function onTouch(title, lavande) {
   let touchIcon = document.getElementById("tap");
-  touchIcon.setAttribute("hidden");
+  touchIcon.style.display = "none";
   
   const DELAY = 1
   let posX = 0;
