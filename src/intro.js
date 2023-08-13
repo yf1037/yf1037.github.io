@@ -47,6 +47,9 @@ function onHover(title, lavande, posX) {
 }
 
 function onTouch(title, lavande) {
+  let touchIcon = document.getElementById("tag");
+  touchIcon.setAttribute("hidden");
+  
   const DELAY = 1
   let posX = 0;
 

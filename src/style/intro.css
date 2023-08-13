@@ -22,9 +22,25 @@
   #r3 {
     right: 30%;
   }
+
+  #tap {
+    z-index: 4;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -32.5vw;
+    margin-left: -25vw;
+    width: 50vw;
+    height: 75vw;
+    animation: fade 10s ease-in-out infinite;
+  }
 }
 
 @media all and (min-width: 800px) {
+  #tap {
+    display: none;
+  }
+
   #l1 {
     left: 40%;
   }
@@ -58,7 +74,7 @@
   position: absolute;
   transform-origin: 50% 100%;
   bottom: 0;
-  z-index: 5;
+  z-index: 2;
 }
 
 #lavande > * > * {
@@ -94,7 +110,7 @@
 
 #grass{
   position: absolute;
-  z-index: 10; 
+  z-index: 3; 
   bottom: 0;
   background-image: url('/media/grass.png');
   height: 20vh;
@@ -135,6 +151,44 @@
 
   to {
     transform: scale(0.25);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0;
   }
 }
 
