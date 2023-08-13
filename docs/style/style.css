@@ -17,10 +17,6 @@
     display: none;
   }
 
-  .mobile > select {
-    max-width: 72.5px;
-  }
-
   .fix-font{
     font-family: 'lucida_brite';
     font-size: 12px;
@@ -104,6 +100,10 @@
   #footspace{
     width: 10%;
   }
+}
+
+select {
+  max-width: 80px;
 }
 
 .heart-text {
