@@ -22,6 +22,10 @@
   #r3 {
     right: 30%;
   }
+  
+  #grass{
+    background-image: url('/media/small/grass.png');
+  }
 
   #tap {
     z-index: 4;
@@ -63,6 +67,10 @@
 
   #r3 {
     right: 40%;
+  }
+
+  #grass{
+    background-image: url('/media/grass.png');
   }
 }
 
@@ -112,7 +120,6 @@
   position: absolute;
   z-index: 3; 
   bottom: 0;
-  background-image: url('/media/grass.png');
   height: 20vh;
   width: 100%;
   background-size: contain;

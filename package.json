@@ -10,8 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "cpy src/* docs && cpy src/style/* docs/style",
+    "replace": "replace-in-files --regex='(\\s)(src=\\\")(.?media\/)(.*[png|jpg])(\\\")' --replacement='$1srcset=\\\"$3small\/$4$1800w,$1$3$4$11200w\\\"$1sizes=\\\"(max-width:800px)$1800px,$11200px\\\"$1$2$3$4$5' --ignore-case ./docs/*.html ./docs/cn/*.html",
     "compile": "static-i18n -l en -i en -i cn -o docs src/html",
-    "build": "npm run compile && npm run copy",
+    "build": "npm run compile && npm run copy && npm run replace ",
     "start": "http-server docs"
   },
   "author": "",
