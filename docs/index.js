@@ -84,3 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
       dropDownHref('menuSelector'); 
   })
 });
+
+
+function rotateButton(){
+  let rsvp = document.getElementById('rsvp').children[0].children[0];
+  rsvp.style.transform = 'rotate(' + 0.5*window.scrollY + 'deg)';
+}
+
+document.addEventListener('scroll', (e) => rotateButton() );
