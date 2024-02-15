@@ -79,7 +79,17 @@ var imageList = [
     'cats/BRZX7875.jpg',
     'cats/IMG_E0269.jpg',
     'cats/EBDG1842.jpg',
-    'cats/image2.jpg'
+    'cats/image2.jpg',
+    'cats/DBQTE8955.jpg',    
+    'cats/IMG_1022.jpg',
+    'cats/IMG_1525.jpg',
+    'cats/IMG_1007.jpg',
+    'cats/IMG_1479.jpg',
+    'cats/IMG_2522.jpg',
+    'cats/IMG_E1489.jpg',
+    'cats/IMG_E1498.jpg',
+    'cats/TDTUE0498.jpg',
+    'cats/IMG_1451.jpg'
   ],
   [
     'WA/CPZUE4313.jpg',
@@ -315,7 +325,36 @@ var imageList = [
     '2023/IMG_0303.jpg',
     '2023/image0.jpg',
     '2023/IMG_0462.jpg',
-    '2023/WeChat Image_20230716115708.jpg'
+    '2023/WeChat Image_20230716115708.jpg',
+    '2023/IMG_0924.jpg',
+    '2023/WAEX9764.jpg',
+    '2023/IMG_1490.jpg',
+    '2023/IMG_0230.jpg'
+  ],
+  [
+    'alaska/IMG_1778.jpg',
+    'alaska/IMG_1732.jpg',
+    'alaska/IMG_2129.jpg',
+    'alaska/DSC04608.jpg',
+    'alaska/IMG_1995.jpg',
+    'alaska/IMG_2394.jpg',
+    'alaska/FJST4185.jpg',
+    'alaska/IMG_4197.jpg',
+    'alaska/IMG_1910.jpg',
+    'alaska/IMG_1705.jpg',
+    'alaska/IMG_1971.jpg',
+    'alaska/IMG_2054.jpg',
+    'alaska/IMG_2161.jpg',
+    'alaska/DOOM7534.jpg',
+    'alaska/IMG_2162.jpg',
+    'alaska/IMG_2132.jpg',
+    'alaska/IMG_1720.jpg',
+    'alaska/IMG_1998.jpg',
+    'alaska/IMG_2342.jpg',
+    'alaska/IMG_1809.jpg',
+    'alaska/IMG_2227.jpg',
+    'alaska/IMG_2322.jpg',
+    'alaska/IMG_1802.jpg'
   ]
 ];
 
@@ -437,4 +476,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', () => createCarousels(16) );
+document.addEventListener( 'DOMContentLoaded', () => createCarousels(17) );
