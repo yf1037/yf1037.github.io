@@ -366,6 +366,10 @@ var imageList = [
     'alaska/IMG_2227.jpg',
     'alaska/IMG_2322.jpg',
     'alaska/IMG_1802.jpg'
+  ],
+  [
+    '2024/WDJN8796.jpg',
+    '2024/Image_20240216082022.jpg'
   ]
 ];
 
@@ -487,4 +491,4 @@ function createCarousels(num) {
   }
 }
 
-document.addEventListener( 'DOMContentLoaded', () => createCarousels(17) );
+document.addEventListener( 'DOMContentLoaded', () => createCarousels(18) );
