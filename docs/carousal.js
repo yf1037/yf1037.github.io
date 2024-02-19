@@ -300,7 +300,8 @@ var imageList = [
     '2022/WeChat Image_20230602102513.jpg',
     '2022/WeChat Image_20230602102547.jpg',
     '2022/WeChat Image_20230602102558.jpg',
-    '2022/WeChat Image_20230531220440.jpg'
+    '2022/WeChat Image_20230531220440.jpg',
+    '2022/Image_20240219104352.jpg'
   ],
   [
     'summer/WeChat Image_20230602104102.jpg',
@@ -338,7 +339,8 @@ var imageList = [
     '2023/Image_20231011212558.jpg',
     '2023/Image_20240216081955.jpg',
     '2023/IMG_0230.jpg',
-    '2023/IMG_1490.jpg'
+    '2023/IMG_1490.jpg',
+    '2023/Image_20240219104503.jpg'
   ],
   [
     'alaska/IMG_1778.jpg',
