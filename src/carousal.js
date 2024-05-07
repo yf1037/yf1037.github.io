@@ -77,7 +77,6 @@ var imageList = [
     'cats/IMG_0277.jpg',
     'cats/WVIK1566.jpg',
     'cats/BRZX7875.jpg',
-    'cats/IMG_E0269.jpg',
     'cats/EBDG1842.jpg',
     'cats/image2.jpg',
     'cats/DBQTE8955.jpg',    
@@ -89,7 +88,8 @@ var imageList = [
     'cats/IMG_E1489.jpg',
     'cats/IMG_E1498.jpg',
     'cats/TDTUE0498.jpg',
-    'cats/IMG_1451.jpg'
+    'cats/IMG_1451.jpg',
+    'cats/Image_20240507144524.jpg'
   ],
   [
     'WA/CPZUE4313.jpg',
@@ -371,7 +371,11 @@ var imageList = [
   ],
   [
     '2024/WDJN8796.jpg',
-    '2024/Image_20240216082022.jpg'
+    '2024/Image_20240216082022.jpg',
+    '2024/Image_20240507144257.jpg',
+    '2024/Image_20240507151646.jpg',
+    '2024/Image_20240507144249.jpg',
+    '2024/Image_20240507144220.jpg'
   ]
 ];
 
