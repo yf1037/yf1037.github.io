@@ -33,7 +33,9 @@ var imageList = [
     'events/DYXA0340.jpg',
     'events/OROG4664.jpg',
     'events/FFQE4978.jpg',  
-    'events/IMG_3318.jpg'
+    'events/IMG_3318.jpg',
+    '2023/WAEX9764.jpg',
+    'events/Image_20240528171746.jpg'
   ],
   [
     'say_over_the_years/2019.jpg',
@@ -49,7 +51,12 @@ var imageList = [
     'say_over_the_years/2022_4.jpg',
     'say_over_the_years/2022_5.jpg',
     'say_over_the_years/2023.jpg',
-    'say_over_the_years/2023_2.jpg'
+    'say_over_the_years/2023_2.jpg',
+    '2023/Image_20240216081955.jpg',
+    'alaska/IMG_1732.jpg',
+    'alaska/IMG_1778.jpg',
+    '2024/Image_20240216082022.jpg',
+    'say_over_the_years/Image_20240528170150.jpg'
   ],
   [
     'cats/IMG_7621.jpg',
@@ -335,20 +342,18 @@ var imageList = [
     '2023/Image_20240216081945.jpg',
     '2023/Image_20231011212531.jpg',
     '2023/Image_20240216081919.jpg',
-    '2023/WAEX9764.jpg',
     '2023/Image_20231011212558.jpg',
-    '2023/Image_20240216081955.jpg',
+    '2023/Image_20240528174238.jpg',
     '2023/IMG_0230.jpg',
     '2023/IMG_1490.jpg',
     '2023/Image_20240219104503.jpg'
   ],
   [
     'alaska/IMG_1778.jpg',
-    'alaska/IMG_1732.jpg',
+    'alaska/IMG_2394.jpg',
     'alaska/IMG_2129.jpg',
     'alaska/DSC04608.jpg',
     'alaska/IMG_1995.jpg',
-    'alaska/IMG_2394.jpg',
     'alaska/Image_20240216082008.jpg',
     'alaska/FJST4185.jpg',
     'alaska/IMG_4197.jpg',
@@ -371,7 +376,7 @@ var imageList = [
   ],
   [
     '2024/WDJN8796.jpg',
-    '2024/Image_20240216082022.jpg',
+    '2024/Image_20240216082001.jpg',
     '2024/Image_20240528163118.jpg',
     '2024/Image_20240507144257.jpg',
     '2024/Image_20240507151646.jpg',
