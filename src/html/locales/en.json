@@ -110,5 +110,8 @@
   "dietQ": "Can you accomodate special diet?",
   "dietA": "Yes. Please let us know in your RSVP. We can provide gluten-free, lactose-free, vegetarian, and vegan diet. And please let us know if you have any food allergies.",
   "guestbookQ": "Do you have a guestbook?",
-  "guestbookA": "Yes! Please take a picture at the photo booth and sign the scrap book."
+  "guestbookA": "Yes! Please take a picture at the photo booth and sign the scrap book.",
+  "ThankU": "Thank you for celebrating with us!<br> You can find all the professional photos and videos <a href='https://www.thepros.com/saylove2024' target='_blank' rel='noopener noreferrer'><u>here ></u></a>",
+  "PicQ": "Where can I find the wedding pictures and videos?",
+  "PicA": "You can find all the professional photos and videos <a href='https://www.thepros.com/saylove2024' target='_blank' rel='noopener noreferrer' style='color: black'><u>here</u></a>. The password is the wedding date in MMDDYYYY format. Thank you for celebrating with us!"
 }

@@ -110,5 +110,8 @@
   "dietQ": "我需要特殊饮食，你们可以提供吗？",
   "dietA": "可以！我们可以提供素食，无麸质或者无乳糖的食物。请告诉我们您有没有任何禁食或忌口。",
   "guestbookQ": "你们有留言簿吗？",
-  "guestbookA": "有！请在照相棚拍照及留言。"
+  "guestbookA": "有！请在照相棚拍照及留言。",
+  "ThankU": "感谢您来参加我们的婚礼，请用这个<a href='https://www.thepros.com/saylove2024' target='_blank' rel='noopener noreferrer'><u>链接</u></a>查看婚礼的照片和录像 >",
+  "PicQ": "在哪里可以看到婚礼的照片？",
+  "PicA": "请用这个<a href='https://www.thepros.com/saylove2024' target='_blank' rel='noopener noreferrer' style='color: black'><u>链接</u></a>查看婚礼的照片和录像。密码是婚礼的日期，格式是‘日日月月年年年年’。 感谢您来参加我们的婚礼！"
 }
